@@ -48,3 +48,8 @@ testem.log
 Thumbs.db
 WebCore/WebCoreRepositoryLayer/obj/Debug/netcoreapp3.1/WebCoreRepositoryLayer.csproj.AssemblyReference.cache
 WebCore/WebCoreRepositoryLayer/obj/Debug/netcoreapp3.1/WebCoreRepositoryLayer.csproj.AssemblyReference.cache
+*.dll
+*.pdb
+*.cache
+*.cache
+*.pdb
