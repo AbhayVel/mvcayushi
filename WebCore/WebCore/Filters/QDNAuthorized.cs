@@ -23,13 +23,22 @@ namespace WebCore.Filters
             }
 
           Claim c=  claimsPrincipal.FindFirst(x => x.Type.ToLower().Equals(lst[0]));
-            if (c.Value.ToLower().Contains(lst[1]))
+            try
             {
-                return true;
-            } else
+                if (c.Value.ToLower().Contains(lst[1]))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch
             {
                 return false;
             }
+           
           
         }
 
