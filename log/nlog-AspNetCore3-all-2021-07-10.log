@@ -1,0 +1,179 @@
+2021-07-10 16:36:16.4215|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:36:16.4770|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:36:16.4869|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:36:23.0911|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute|Attempted to divide by zero. 
+2021-07-10 16:40:55.9136|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:40:55.9789|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:40:55.9908|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:41:28.4966|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action $Post - Error $Attempted to divide by zero. 
+2021-07-10 16:42:44.2596|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:42:44.3762|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:42:44.4090|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:44:04.5534|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:44:04.6201|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:44:04.6347|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:44:17.5886|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Post - Error: Invalid object name 'dbo.TblStudent'. 
+2021-07-10 16:44:51.6106|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:44:51.6652|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:44:51.6750|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:47:00.6346|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:47:00.6866|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:47:00.6866|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:47:44.0612|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:47:44.1292|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:47:44.1432|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:48:05.8443|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Post - Error: Attempted to divide by zero. 
+2021-07-10 16:50:01.5068|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:50:01.5911|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:50:01.5911|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:53:00.0051|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:53:00.0751|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:53:00.0751|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:55:54.0036|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:55:54.0657|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:55:54.0798|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:58:32.1286|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:58:32.2056|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:58:32.2217|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:58:44.6353|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Post - Error: Attempted to divide by zero. 
+2021-07-10 16:59:47.2052|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 16:59:47.2806|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 16:59:47.2937|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 16:59:57.9817|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Post - Error: Attempted to divide by zero. 
+2021-07-10 17:01:47.2823|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:01:47.3373|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:01:47.3500|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:01:58.7093|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Post - Error: Attempted to divide by zero. 
+2021-07-10 17:06:35.3079|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:06:35.3664|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:06:35.3816|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:07:38.2369|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:07:38.3154|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:07:38.3440|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:11:10.6827|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:11:10.7629|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:11:10.7798|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:11:29.9822|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Post - Error: Attempted to divide by zero. 
+2021-07-10 17:11:57.9909|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:11:58.0484|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:11:58.0580|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:23:21.5552|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Index - Error: Attempted to divide by zero. - stackTrac :    at WebCore.Controllers.StudentController.Index(StudentModel studentModel, Pagination pagination) in D:\Ayushi\demo\WebCore\WebCore\Controllers\StudentController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-10 17:25:00.9690|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Index - Error: Attempted to divide by zero. - stackTrac :    at WebCore.Controllers.StudentController.Index(StudentModel studentModel, Pagination pagination) in D:\Ayushi\demo\WebCore\WebCore\Controllers\StudentController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-10 17:25:31.1708|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Index - Error: Attempted to divide by zero. - stackTrac :    at WebCore.Controllers.StudentController.Index(StudentModel studentModel, Pagination pagination) in D:\Ayushi\demo\WebCore\WebCore\Controllers\StudentController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-10 17:26:06.4180|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Index - Error: Attempted to divide by zero. - stackTrac :    at WebCore.Controllers.StudentController.Index(StudentModel studentModel, Pagination pagination) in D:\Ayushi\demo\WebCore\WebCore\Controllers\StudentController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-10 17:27:39.0159|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Index - Error: Attempted to divide by zero. - stackTrac :    at WebCore.Controllers.StudentController.Index(StudentModel studentModel, Pagination pagination) in D:\Ayushi\demo\WebCore\WebCore\Controllers\StudentController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-10 17:28:23.0502|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:28:23.1262|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:28:23.1430|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:29:25.2936|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:29:25.4948|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:29:25.5173|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:29:32.6612|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Post - Error: Attempted to divide by zero. - stackTrac :    at WebApiCore.Controllers.StudentController.Post(StudentModel studentModel) in D:\Ayushi\demo\WebCore\WebApiCore\Controllers\StudentController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-10 17:38:49.2509|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:38:49.2901|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:38:49.2975|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:39:27.2370|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Student - Action: Post - Error: Attempted to divide by zero. - stackTrac :    at WebApiCore.Controllers.StudentController.Post(StudentModel studentModel) in D:\Ayushi\demo\WebCore\WebApiCore\Controllers\StudentController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-10 17:42:30.4377|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:42:30.5030|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:42:30.5191|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:42:45.5726|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 1464.3498 
+2021-07-10 17:43:00.9367|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 48.7936 
+2021-07-10 17:43:07.0195|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 19.6253 
+2021-07-10 17:43:08.2970|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 20.2345 
+2021-07-10 17:43:09.0958|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 6.9689 
+2021-07-10 17:43:09.9385|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 8.5197 
+2021-07-10 17:43:10.6681|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 5.7638 
+2021-07-10 17:43:11.3776|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 5.5314 
+2021-07-10 17:43:12.0975|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 4.3559 
+2021-07-10 17:43:12.8319|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 3.5174 
+2021-07-10 17:43:13.4915|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 4.5919 
+2021-07-10 17:43:14.0576|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 4.6578 
+2021-07-10 17:43:15.1485|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 6.5352 
+2021-07-10 17:43:15.8711|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 4.6169 
+2021-07-10 17:43:16.5559|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 3.7551 
+2021-07-10 17:43:17.0702|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 4.8177 
+2021-07-10 17:43:26.1734|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 5.1828 
+2021-07-10 17:43:27.1319|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 3.2193 
+2021-07-10 17:43:28.0592|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 2.8957 
+2021-07-10 17:47:32.0672|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-10 17:47:32.1192|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-10 17:47:32.1318|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-10 17:47:38.2559|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 1443.7375 
+2021-07-10 17:51:28.3522|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 2396.7884 
+2021-07-10 17:51:49.3723|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 109.0943 

@@ -1,0 +1,12 @@
+D:\Ayushi\demo\WebCore\WebCoreEntities\bin\Debug\netcoreapp3.1\WebCoreEntities.deps.json
+D:\Ayushi\demo\WebCore\WebCoreEntities\bin\Debug\netcoreapp3.1\WebCoreEntities.dll
+D:\Ayushi\demo\WebCore\WebCoreEntities\bin\Debug\netcoreapp3.1\WebCoreEntities.pdb
+D:\Ayushi\demo\WebCore\WebCoreEntities\obj\Debug\netcoreapp3.1\WebCoreEntities.AssemblyInfoInputs.cache
+D:\Ayushi\demo\WebCore\WebCoreEntities\obj\Debug\netcoreapp3.1\WebCoreEntities.AssemblyInfo.cs
+D:\Ayushi\demo\WebCore\WebCoreEntities\obj\Debug\netcoreapp3.1\WebCoreEntities.csproj.CoreCompileInputs.cache
+D:\Ayushi\demo\WebCore\WebCoreEntities\obj\Debug\netcoreapp3.1\WebCoreEntities.dll
+D:\Ayushi\demo\WebCore\WebCoreEntities\obj\Debug\netcoreapp3.1\WebCoreEntities.pdb
+D:\Ayushi\demo\WebCore\WebCoreEntities\obj\Debug\netcoreapp3.1\WebCoreEntities.csprojAssemblyReference.cache
+D:\Ayushi\demo\WebCore\WebCoreEntities\bin\Debug\netcoreapp3.1\WebCoreEntities.runtimeconfig.json
+D:\Ayushi\demo\WebCore\WebCoreEntities\bin\Debug\netcoreapp3.1\WebCoreEntities.runtimeconfig.dev.json
+D:\Ayushi\demo\WebCore\WebCoreEntities\obj\Debug\netcoreapp3.1\WebCoreEntities.genruntimeconfig.cache

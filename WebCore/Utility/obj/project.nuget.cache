@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w7PFzNVi3nU0Ff9Hq7AdS+H+XjOu3SlfJJwPYQJbvSyXnLjcRCh553j8kJXUPHnied2AzibPLH2uIK0iqqwo7g==",
+  "success": true,
+  "projectFilePath": "D:\\Ayushi\\demo\\WebCore\\Utility\\Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\AjayV\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

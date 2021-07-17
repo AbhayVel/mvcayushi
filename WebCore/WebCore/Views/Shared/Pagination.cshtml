@@ -1,0 +1,46 @@
+﻿@using ModelsCoreProject;
+@{
+
+    Pagination pagination = ViewBag.pagination;
+}
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+
+        @if (pagination.CurrentPage <= 1)
+        {
+            <li disabled class="page-item"><a disabled onclick="goToPageDisable(@pagination.CurrentPage -1)" class="page-link" href="#">Previous</a></li>
+        }
+        else
+        {
+            <li class="page-item"><a onclick="goToPage(@pagination.CurrentPage -1)" class="page-link" href="#">Previous</a></li>
+
+        }
+
+        @foreach (var item in pagination.Pages)
+        {
+            if (item == pagination.CurrentPage)
+            {
+                <li class="page-item active"><a onclick="goToPage(@item)" class="page-link" href="#">@item</a></li>
+            }
+            else
+            {
+                <li class="page-item"><a onclick="goToPage(@item)" class="page-link" href="#">@item</a></li>
+            }
+
+        }
+
+        @if (pagination.CurrentPage >= pagination.Pages.Count)
+        {
+            <li disabled class="page-item"><a disabled onclick="goToPageDisable(@pagination.CurrentPage+1)" class="page-link" href="#">Next</a></li>
+        }
+        else
+        {
+            <li class="page-item"><a onclick="goToPage(@pagination.CurrentPage+1)" class="page-link" href="#">Next</a></li>
+
+        }
+
+
+    </ul>
+</nav>
+

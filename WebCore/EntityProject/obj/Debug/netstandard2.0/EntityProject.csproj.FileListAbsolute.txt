@@ -1,0 +1,9 @@
+D:\Ayushi\demo\WebCore\EntityProject\bin\Debug\netstandard2.0\EntityProject.deps.json
+D:\Ayushi\demo\WebCore\EntityProject\bin\Debug\netstandard2.0\EntityProject.dll
+D:\Ayushi\demo\WebCore\EntityProject\bin\Debug\netstandard2.0\EntityProject.pdb
+D:\Ayushi\demo\WebCore\EntityProject\obj\Debug\netstandard2.0\EntityProject.csprojAssemblyReference.cache
+D:\Ayushi\demo\WebCore\EntityProject\obj\Debug\netstandard2.0\EntityProject.AssemblyInfoInputs.cache
+D:\Ayushi\demo\WebCore\EntityProject\obj\Debug\netstandard2.0\EntityProject.AssemblyInfo.cs
+D:\Ayushi\demo\WebCore\EntityProject\obj\Debug\netstandard2.0\EntityProject.csproj.CoreCompileInputs.cache
+D:\Ayushi\demo\WebCore\EntityProject\obj\Debug\netstandard2.0\EntityProject.dll
+D:\Ayushi\demo\WebCore\EntityProject\obj\Debug\netstandard2.0\EntityProject.pdb

@@ -1,0 +1,12 @@
+D:\Ayushi\demo\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.deps.json
+D:\Ayushi\demo\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.dll
+D:\Ayushi\demo\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.pdb
+D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.AssemblyInfoInputs.cache
+D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.AssemblyInfo.cs
+D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.csproj.CoreCompileInputs.cache
+D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.dll
+D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.pdb
+D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.csprojAssemblyReference.cache
+D:\Ayushi\demo\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.runtimeconfig.json
+D:\Ayushi\demo\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.runtimeconfig.dev.json
+D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.genruntimeconfig.cache

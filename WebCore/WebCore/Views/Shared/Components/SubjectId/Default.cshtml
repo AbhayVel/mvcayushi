@@ -1,0 +1,4 @@
+﻿@model WebCoreEntities.ISubject
+    <label asp-for="Subject" class="control-label"></label>
+    <select asp-for="SubjectId" class="form-control" asp-items="@(new SelectList(ViewBag.subjects,"Id","Name"))"></select>
+    <span asp-validation-for="Subject" class="text-danger"></span>

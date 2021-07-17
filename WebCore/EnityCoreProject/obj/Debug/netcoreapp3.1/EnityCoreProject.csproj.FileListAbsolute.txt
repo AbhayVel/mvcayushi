@@ -1,0 +1,9 @@
+D:\Ayushi\demo\WebCore\EnityCoreProject\bin\Debug\netcoreapp3.1\EnityCoreProject.deps.json
+D:\Ayushi\demo\WebCore\EnityCoreProject\bin\Debug\netcoreapp3.1\EnityCoreProject.dll
+D:\Ayushi\demo\WebCore\EnityCoreProject\bin\Debug\netcoreapp3.1\EnityCoreProject.pdb
+D:\Ayushi\demo\WebCore\EnityCoreProject\obj\Debug\netcoreapp3.1\EnityCoreProject.csprojAssemblyReference.cache
+D:\Ayushi\demo\WebCore\EnityCoreProject\obj\Debug\netcoreapp3.1\EnityCoreProject.AssemblyInfoInputs.cache
+D:\Ayushi\demo\WebCore\EnityCoreProject\obj\Debug\netcoreapp3.1\EnityCoreProject.AssemblyInfo.cs
+D:\Ayushi\demo\WebCore\EnityCoreProject\obj\Debug\netcoreapp3.1\EnityCoreProject.csproj.CoreCompileInputs.cache
+D:\Ayushi\demo\WebCore\EnityCoreProject\obj\Debug\netcoreapp3.1\EnityCoreProject.dll
+D:\Ayushi\demo\WebCore\EnityCoreProject\obj\Debug\netcoreapp3.1\EnityCoreProject.pdb

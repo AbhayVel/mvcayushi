@@ -1,0 +1,38 @@
+﻿@using ModelsCoreProject;
+@{
+    StudentModel sm = ViewBag.studentModel;
+    Pagination pagination = ViewBag.pagination;
+}
+
+<div>
+
+    <form action="/Student/index" method="post">
+
+        <div class="form-group">
+            <label for="Id">Id</label>
+            <input type="Text" class="form-control" name="Id" value="@sm.Id" placeholder="Enter email" id="Id">
+        </div>
+        <div class="form-group">
+            <label for="firstName">FirstName</label>
+            <input type="Text" class="form-control" name="FirstName" value="@sm.FirstName" placeholder="Enter password" id="firstName">
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="Text" class="form-control" name="LastName" value="@sm.LastName" placeholder="Enter Last Name" id="LastName">
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="Text" class="form-control" name="ageGte" value="@sm.AgeGte" placeholder="Enter Age" id="age">
+            <input type="Text" class="form-control" name="ageLte" value="@sm.AgeLte" placeholder="Enter Age" id="age">
+
+        </div>
+
+        <input type="hidden" id="columnNameId" name="columnName" value="@ViewBag.columnName" />
+        <input type="hidden" id="orderById" name="orderBy" value="@ViewBag.orderBy" />
+        <input type="hidden" id="currentPageId" name="currentPage" value="@pagination.CurrentPage" />
+        <button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>

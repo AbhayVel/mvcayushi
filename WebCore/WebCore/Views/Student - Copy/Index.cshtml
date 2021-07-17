@@ -1,0 +1,82 @@
+﻿@using ModelsCoreProject;
+@model List<WebCoreEntities.Student>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+@{
+    List<WebCoreEntities.Student> lStudent = Model;
+}
+<section class="section">
+    <div class="card">
+        <div class="card-header">
+            User List
+        </div>
+        <div class="card-body">
+          @Html.Partial("search")
+
+            @Html.ActionLink("Create","Add")
+            <table class="table table-striped" id="table1">
+                <thead>
+                    <tr>
+                        <th>Edit </th>
+
+                        <th><a id="a1" onclick="gotTo('id','@ViewBag.orderBy')" href="/student/Index?columnName=id&orderBy=@ViewBag.orderBy">Id</a>  </th>
+                        <th><a onclick="gotTo('FirstName','@ViewBag.orderBy')" href="/student/Index?columnName=firstName&orderBy=@ViewBag.orderBy">First Name</a>  </th>
+
+
+                        <th><a onclick="gotTo('LastName','@ViewBag.orderBy')" href="/student/Index?columnName=lastName&orderBy=@ViewBag.orderBy">Last Name</a>  </th>
+
+                        <th><a onclick="gotTo('SubjectName','@ViewBag.orderBy')" href="/student/Index?columnName=subject&orderBy=@ViewBag.orderBy">Subject</a>  </th>
+
+                        <th><a onclick="gotTo('age','@ViewBag.orderBy')" href="/student/Index?columnName=id&orderBy=@ViewBag.orderBy">Age</a>  </th>
+
+                        <th>Fees</th>
+                        <th>Active</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @for (int i = 0; i < lStudent.Count; i++)
+                    {
+                    <tr>
+                        <td><a href="/student/edit/@lStudent[i].Id">Edit</a></td>
+                        <td>@lStudent[i].Id</td>
+                        <td>@lStudent[i].FirstName</td>
+                        <td>@lStudent[i].LastName</td>
+                        <td>@lStudent[i]?.Subject?.Name</td>
+                        <td>@lStudent[i].Age</td>
+                        <td>@lStudent[i].Fees</td>
+
+                        @if (lStudent[i].Active.HasValue && lStudent[i].Active.Value)
+                        {
+                            <td>
+                                <span class="badge bg-success">Active</span>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <span class="badge bg-danger">In-active</span>
+                            </td>
+                        }
+
+                    </tr>
+
+
+                    }
+
+                </tbody>
+            </table>
+
+         @Html.Partial("Pagination")
+        </div>
+    </div>
+
+</section>
+
+ 
+

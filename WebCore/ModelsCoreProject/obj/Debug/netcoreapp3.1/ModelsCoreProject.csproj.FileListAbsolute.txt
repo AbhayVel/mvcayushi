@@ -1,0 +1,17 @@
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\ModelsCoreProject.deps.json
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\ModelsCoreProject.dll
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\ModelsCoreProject.pdb
+D:\Ayushi\demo\WebCore\ModelsCoreProject\obj\Debug\netcoreapp3.1\ModelsCoreProject.csprojAssemblyReference.cache
+D:\Ayushi\demo\WebCore\ModelsCoreProject\obj\Debug\netcoreapp3.1\ModelsCoreProject.AssemblyInfoInputs.cache
+D:\Ayushi\demo\WebCore\ModelsCoreProject\obj\Debug\netcoreapp3.1\ModelsCoreProject.AssemblyInfo.cs
+D:\Ayushi\demo\WebCore\ModelsCoreProject\obj\Debug\netcoreapp3.1\ModelsCoreProject.csproj.CoreCompileInputs.cache
+D:\Ayushi\demo\WebCore\ModelsCoreProject\obj\Debug\netcoreapp3.1\ModelsCoreProject.dll
+D:\Ayushi\demo\WebCore\ModelsCoreProject\obj\Debug\netcoreapp3.1\ModelsCoreProject.pdb
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\WebCoreEntities.dll
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\WebCoreEntities.pdb
+D:\Ayushi\demo\WebCore\ModelsCoreProject\obj\Debug\netcoreapp3.1\ModelsCoreProject.csproj.CopyComplete
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\UtilityCore.dll
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\UtilityCore.pdb
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\ModelsCoreProject.runtimeconfig.json
+D:\Ayushi\demo\WebCore\ModelsCoreProject\bin\Debug\netcoreapp3.1\ModelsCoreProject.runtimeconfig.dev.json
+D:\Ayushi\demo\WebCore\ModelsCoreProject\obj\Debug\netcoreapp3.1\ModelsCoreProject.genruntimeconfig.cache

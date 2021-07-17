@@ -1,0 +1,8 @@
+D:\Ayushi\demo\WebCore\Utility\obj\Debug\netstandard2.0\Utility.AssemblyInfoInputs.cache
+D:\Ayushi\demo\WebCore\Utility\obj\Debug\netstandard2.0\Utility.AssemblyInfo.cs
+D:\Ayushi\demo\WebCore\Utility\obj\Debug\netstandard2.0\Utility.csproj.CoreCompileInputs.cache
+D:\Ayushi\demo\WebCore\Utility\bin\Debug\netstandard2.0\Utility.deps.json
+D:\Ayushi\demo\WebCore\Utility\bin\Debug\netstandard2.0\Utility.dll
+D:\Ayushi\demo\WebCore\Utility\bin\Debug\netstandard2.0\Utility.pdb
+D:\Ayushi\demo\WebCore\Utility\obj\Debug\netstandard2.0\Utility.dll
+D:\Ayushi\demo\WebCore\Utility\obj\Debug\netstandard2.0\Utility.pdb
