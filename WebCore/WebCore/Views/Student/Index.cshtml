@@ -22,8 +22,17 @@
             <table class="table table-striped" id="table1">
                 <thead>
                     <tr>
-                        <th>Edit </th>
-                        <th>Delete </th>
+
+                        @if (User.IsInRoleCheck("Student,E"))
+                        {
+                            <th>Edit </th>
+                        }
+                        @if (User.IsInRoleCheck("Student,D"))
+                        {
+                            <th>Delete </th>
+                        }
+
+
 
                         <th><a id="a1" onclick="gotTo('id','@ViewBag.orderBy')" href="/student/Index?columnName=id&orderBy=@ViewBag.orderBy">Id</a>  </th>
                         <th><a onclick="gotTo('FirstName','@ViewBag.orderBy')" href="/student/Index?columnName=firstName&orderBy=@ViewBag.orderBy">First Name</a>  </th>
@@ -43,9 +52,18 @@
 
                     @for (int i = 0; i < lStudent.Count; i++)
                     {
+
+
                     <tr>
-                        <td><a href="/student/edit/@lStudent[i].Id">Edit</a></td>
-                        <td><a href="/student/delete/@lStudent[i].Id">Delete</a></td>
+                        @if (User.IsInRoleCheck("Student,E"))
+                        {
+                            <td><a href="/student/edit/@lStudent[i].Id">Edit</a></td>
+                        }
+                        @if (User.IsInRoleCheck("Student,D"))
+                        {
+                              <td><a href="/student/delete/@lStudent[i].Id">Delete</a></td>
+                        }
+                        
                         <td>@lStudent[i].Id</td>
                         <td>@lStudent[i].FirstName</td>
                         <td>@lStudent[i].LastName</td>

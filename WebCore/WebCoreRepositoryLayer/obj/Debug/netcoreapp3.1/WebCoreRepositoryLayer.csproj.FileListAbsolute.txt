@@ -9,7 +9,6 @@ D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\obj\Debug\netcoreapp3.1\WebCoreRep
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\bin\Debug\netcoreapp3.1\WebCoreEntities.dll
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\bin\Debug\netcoreapp3.1\WebCoreEntities.pdb
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\obj\Debug\netcoreapp3.1\WebCoreRepositoryLayer.csproj.CopyComplete
-D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\obj\Debug\netcoreapp3.1\WebCoreRepositoryLayer.csprojAssemblyReference.cache
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\bin\Debug\netcoreapp3.1\ModelsCoreProject.dll
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\bin\Debug\netcoreapp3.1\ModelsCoreProject.pdb
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\bin\Debug\netcoreapp3.1\UtilityCore.dll
@@ -19,3 +18,4 @@ D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\bin\Debug\netcoreapp3.1\WebCoreRep
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\bin\Debug\netcoreapp3.1\WebCoreDbContext.dll
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\bin\Debug\netcoreapp3.1\WebCoreDbContext.pdb
 D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\obj\Debug\netcoreapp3.1\WebCoreRepositoryLayer.genruntimeconfig.cache
+D:\Ayushi\demo\WebCore\WebCoreRepositoryLayer\obj\Debug\netcoreapp3.1\WebCoreRepositoryLayer.csproj.AssemblyReference.cache

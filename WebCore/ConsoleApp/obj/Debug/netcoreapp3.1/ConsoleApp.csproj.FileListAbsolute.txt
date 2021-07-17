@@ -4,7 +4,6 @@ D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconf
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
-D:\Ayushi\demo\WebCore\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csprojAssemblyReference.cache
 D:\Ayushi\demo\WebCore\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
 D:\Ayushi\demo\WebCore\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
 D:\Ayushi\demo\WebCore\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
@@ -14,8 +13,6 @@ D:\Ayushi\demo\WebCore\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
 D:\Ayushi\demo\WebCore\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\UtilityCore.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\UtilityCore.pdb
-D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
-D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\WebCoreEntities.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\WebCoreEntities.pdb
@@ -50,7 +47,6 @@ D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\System.Diagnostics.Dia
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
@@ -59,3 +55,7 @@ D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\nativ
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\NLog.dll
+D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+D:\Ayushi\demo\WebCore\ConsoleApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+D:\Ayushi\demo\WebCore\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.AssemblyReference.cache

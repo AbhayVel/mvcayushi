@@ -12,7 +12,6 @@ D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\WebCoreServiceLayer.dl
 D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\WebCoreEntities.pdb
 D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\WebCoreRepositoryLayer.pdb
 D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\WebCoreServiceLayer.pdb
-D:\Ayushi\demo\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.csprojAssemblyReference.cache
 D:\Ayushi\demo\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.AssemblyInfoInputs.cache
 D:\Ayushi\demo\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.AssemblyInfo.cs
 D:\Ayushi\demo\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.csproj.CoreCompileInputs.cache
@@ -75,3 +74,4 @@ D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\nlog.config
 D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\NLog.dll
 D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+D:\Ayushi\demo\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.csproj.AssemblyReference.cache

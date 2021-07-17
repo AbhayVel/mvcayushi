@@ -1,7 +1,6 @@
 D:\Ayushi\demo\WebCore\WebCoreDbContext\bin\Debug\netcoreapp3.1\WebCoreDbContext.deps.json
 D:\Ayushi\demo\WebCore\WebCoreDbContext\bin\Debug\netcoreapp3.1\WebCoreDbContext.dll
 D:\Ayushi\demo\WebCore\WebCoreDbContext\bin\Debug\netcoreapp3.1\WebCoreDbContext.pdb
-D:\Ayushi\demo\WebCore\WebCoreDbContext\obj\Debug\netcoreapp3.1\WebCoreDbContext.csprojAssemblyReference.cache
 D:\Ayushi\demo\WebCore\WebCoreDbContext\obj\Debug\netcoreapp3.1\WebCoreDbContext.AssemblyInfoInputs.cache
 D:\Ayushi\demo\WebCore\WebCoreDbContext\obj\Debug\netcoreapp3.1\WebCoreDbContext.AssemblyInfo.cs
 D:\Ayushi\demo\WebCore\WebCoreDbContext\obj\Debug\netcoreapp3.1\WebCoreDbContext.csproj.CoreCompileInputs.cache
@@ -13,3 +12,4 @@ D:\Ayushi\demo\WebCore\WebCoreDbContext\bin\Debug\netcoreapp3.1\WebCoreEntities.
 D:\Ayushi\demo\WebCore\WebCoreDbContext\bin\Debug\netcoreapp3.1\WebCoreEntities.pdb
 D:\Ayushi\demo\WebCore\WebCoreDbContext\obj\Debug\netcoreapp3.1\WebCoreDbContext.csproj.CopyComplete
 D:\Ayushi\demo\WebCore\WebCoreDbContext\obj\Debug\netcoreapp3.1\WebCoreDbContext.genruntimeconfig.cache
+D:\Ayushi\demo\WebCore\WebCoreDbContext\obj\Debug\netcoreapp3.1\WebCoreDbContext.csproj.AssemblyReference.cache

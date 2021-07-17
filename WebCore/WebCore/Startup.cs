@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,10 +28,25 @@ namespace WebCore
         {
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            
             services.AddScoped<SubjectRepository, SubjectRepository>();
             services.AddScoped<SubjectService, SubjectService>();
             services.AddScoped<IStudentRepository,StudentRepository> ();
             services.AddScoped<IStudentService, StudentService>(); //ioc +depency injection 
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, x =>
+                {
+                    x.LoginPath = "/Login/Index";
+                    x.LogoutPath = "/Login/Index";
+                    
+                    x.AccessDeniedPath = "/Unauth/index";
+                    x.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+
+                });
+            services.AddSession(x => {
+                x.IdleTimeout = TimeSpan.FromMinutes(20);
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,11 +62,13 @@ namespace WebCore
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseSession();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+         
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

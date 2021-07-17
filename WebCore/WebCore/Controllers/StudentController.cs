@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ModelsCoreProject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using UtilityCore;
 using WebApiCore.Filters;
+using WebCore.Filters;
 using WebCoreEntities;
 using WebCoreServiceLayer;
 
@@ -15,6 +18,8 @@ namespace WebCore.Controllers
 
 
 
+
+     
    
     [QdnActionFilter]
     [QdnExceptionFilterAttribute]
@@ -33,6 +38,8 @@ namespace WebCore.Controllers
 
 
         int i = 0;
+
+        [QDNAuthorized(ClaimList = "Student,R")]
         public IActionResult Index(StudentModel studentModel, Pagination pagination)
         { 
             
@@ -69,17 +76,27 @@ namespace WebCore.Controllers
         //}
 
 
+
+        [QDNAuthorized(ClaimList = "Student,A")]
         public IActionResult Add()
         {
             Student student = new Student();
             return View("Edit",student);
         }
 
+
+
+        [QDNAuthorized(ClaimList = "Student,E")]
         public IActionResult Edit(int id)
         {
           Student student  = StudentService.GetStudentById(id);
           return View(student);
         }
+
+
+
+        
+        [QDNAuthorized(ClaimList = "Student,A")]
 
 
         [HttpPost]
@@ -97,6 +114,8 @@ namespace WebCore.Controllers
            
         }
 
+
+        [QDNAuthorized(ClaimList = "Student,D")]
         public IActionResult Delete(int id)
         {
             StudentService.DeleteStudent(id);

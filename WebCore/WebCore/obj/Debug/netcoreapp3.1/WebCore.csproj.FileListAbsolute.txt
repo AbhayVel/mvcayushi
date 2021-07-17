@@ -8,7 +8,6 @@ D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\WebCore.dll
 D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\WebCore.pdb
 D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\WebCore.Views.dll
 D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\WebCore.Views.pdb
-D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.csprojAssemblyReference.cache
 D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.AssemblyInfoInputs.cache
 D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.AssemblyInfo.cs
 D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.csproj.CoreCompileInputs.cache
@@ -462,3 +461,7 @@ D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\NLog.dll
 D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Exception\Index.cshtml.g.cs
+D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.csproj.AssemblyReference.cache
+D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
+D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Unauth\Index.cshtml.g.cs

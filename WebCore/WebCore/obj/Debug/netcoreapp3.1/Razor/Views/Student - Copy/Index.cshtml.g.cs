@@ -27,6 +27,13 @@ using WebCore.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 3 "D:\Ayushi\demo\WebCore\WebCore\Views\_ViewImports.cshtml"
+using WebCore.Filters;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\Ayushi\demo\WebCore\WebCore\Views\Student - Copy\Index.cshtml"
 using ModelsCoreProject;
 
@@ -34,7 +41,7 @@ using ModelsCoreProject;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f0accb997ce640eefcd620755d20cfb7e6df6114", @"/Views/Student - Copy/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d4526315c43cd9efa3325108553415d27ba40a15", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ba526bbe728d410ec56656a1a72ab617e2e1523a", @"/Views/_ViewImports.cshtml")]
     public class Views_Student___Copy_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<WebCoreEntities.Student>>
     {
         #pragma warning disable 1998
