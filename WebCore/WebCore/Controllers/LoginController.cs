@@ -68,7 +68,6 @@ namespace WebCore.Controllers
             }
             if ("rupal".Equals(userName))
             {
-
                 LoginUserIdentity loginUser = new LoginUserIdentity();
                 loginUser.Name = userName;
                 loginUser.IsAuthenticated = true;
