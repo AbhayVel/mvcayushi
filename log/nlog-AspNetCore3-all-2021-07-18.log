@@ -147,3 +147,8 @@
 2021-07-18 16:22:58.1665|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
 2021-07-18 16:23:11.9113|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 2342.6572 
 2021-07-18 16:23:19.6199|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 830.3519 
+2021-07-18 17:04:50.2107|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 167.6069 
+2021-07-18 17:10:44.5137|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 188.7354 
+2021-07-18 17:19:58.1520|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 190.7882 
+2021-07-18 17:54:33.4509|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 194.3772 
+2021-07-18 18:11:50.8969|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 208.5589 

@@ -51,6 +51,13 @@ namespace WebCore.Filters
         public void OnAuthorization(AuthorizationFilterContext context)
         {
             ClaimsPrincipal claimsPrincipal = context.HttpContext.User;
+
+            if (claimsPrincipal== null || (claimsPrincipal != null && string.IsNullOrWhiteSpace(claimsPrincipal.Identity.Name)))
+            {
+                context.Result = new RedirectResult("/Login");
+                return;
+            }
+                
            if(claimsPrincipal.IsInRoleCheck(ClaimList))
             {
 

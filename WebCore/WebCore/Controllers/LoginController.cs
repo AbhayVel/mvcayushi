@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using UtilityCore;
 using WebCoreConstants;
 using WebCoreEntities;
 using WebCoreServiceLayer;
@@ -38,14 +39,27 @@ namespace WebCore.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string userName,string password)
         {
-
-          var claimPrinsiple =  LoginUserIdentityService.GetClaimsPrincipalByName(userName, password);
-            if (claimPrinsiple!=null)
-            {                   
-              await  HttpContext.SignInAsync(Constants.AuthCookieScheama, claimPrinsiple);
-              return Redirect("/Student");
+            if (1==2)
+            {
+                var claimPrinsiple = LoginUserIdentityService.GetClaimsPrincipalByName(userName, password);
+                if (claimPrinsiple != null)
+                {
+                    await HttpContext.SignInAsync(Constants.AuthCookieScheama, claimPrinsiple);
+                    HttpContext.User = claimPrinsiple;
+                    return Redirect("/Student/index");
+                }
+            }             
+            if (1==1)
+            {
+                var loginUserIdentity = LoginUserIdentityService.GetLoginUserIdentityByName(userName, password);
+                var byteArr = ConvertData.ObjectToByteArray(loginUserIdentity);
+                HttpContext.Session.Set("userObject", byteArr);
+                HttpContext.User = LoginUserIdentityService.GetClaimsPrincipal(loginUserIdentity);
+                return Redirect("/Student/index");
             }
+
             return View("Index");
+           
         }
     }
 }

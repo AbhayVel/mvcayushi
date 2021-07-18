@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,6 +9,9 @@ using System.Text;
 
 namespace WebCoreEntities
 {
+
+
+    [Serializable]
 
     [Table("TblLoginUser")]
     public class LoginUserIdentity : IIdentity
@@ -32,6 +36,8 @@ namespace WebCoreEntities
         public string Password { get; set; }
         public string Role { get; set; }
 
+
+        [JsonIgnore]
        [NotMapped]
         public virtual List<LoginUserClaimIdentity> LoginUserClaimIdentityList { get; set; }
 

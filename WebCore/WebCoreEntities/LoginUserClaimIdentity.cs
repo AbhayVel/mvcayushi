@@ -9,6 +9,8 @@ using System.Text;
 namespace WebCoreEntities
 {
 
+    [Serializable]
+
     [Table("TblLoginUserClaim")]
     public class LoginUserClaimIdentity 
     {

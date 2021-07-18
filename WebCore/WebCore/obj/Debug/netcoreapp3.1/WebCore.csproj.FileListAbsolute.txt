@@ -467,3 +467,6 @@ D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layou
 D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Unauth\Index.cshtml.g.cs
 D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\WebCoreConstants.dll
 D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\WebCoreConstants.pdb
+D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
