@@ -59,3 +59,5 @@ WebCore/WebCoreRepositoryLayer/obj/Debug/netcoreapp3.1/WebCoreRepositoryLayer.cs
 *.dll
 WebCore/WebApiCore/bin/Debug/netcoreapp3.1/WebApiCore.dll
 *.txt
+WebCore/.vs/WebCore/v16/.suo
+*.dll
