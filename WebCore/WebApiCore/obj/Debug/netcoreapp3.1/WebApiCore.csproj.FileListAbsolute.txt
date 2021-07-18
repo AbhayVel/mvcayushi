@@ -75,3 +75,9 @@ D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\NLog.dll
 D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 D:\Ayushi\demo\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.csproj.AssemblyReference.cache
+D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\WebCoreConstants.dll
+D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\WebCoreConstants.pdb
+D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Ayushi\demo\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

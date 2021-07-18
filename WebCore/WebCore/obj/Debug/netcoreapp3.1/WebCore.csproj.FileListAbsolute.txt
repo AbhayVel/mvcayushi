@@ -465,3 +465,5 @@ D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.csproj.AssemblyRe
 D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
 D:\Ayushi\demo\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Views\Unauth\Index.cshtml.g.cs
+D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\WebCoreConstants.dll
+D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\WebCoreConstants.pdb

@@ -20,6 +20,9 @@ namespace WebCoreDbContext
         public virtual DbSet<Student> StudentSet { get; set; }
         public virtual DbSet<Subject> SubjectSet { get; set; }
 
+        public DbSet<LoginUserIdentity> LoginUserIdentitySet { get; set; }
+
+        public DbSet<LoginUserClaimIdentity> LoginUserClaimIdentitySet { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.16",
           "ModelsCoreProject": "1.0.0",
           "NLog.Web.AspNetCore": "4.13.0-readme-preview",
+          "WebCoreConstants": "1.0.0",
           "WebCoreEntities": "1.0.0",
           "WebCoreRepositoryLayer": "1.0.0"
         },
@@ -1098,6 +1099,11 @@
           "UtilityCore.dll": {}
         }
       },
+      "WebCoreConstants/1.0.0": {
+        "runtime": {
+          "WebCoreConstants.dll": {}
+        }
+      },
       "WebCoreDbContext/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.16",
@@ -1888,6 +1894,11 @@
       "sha512": ""
     },
     "UtilityCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebCoreConstants/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

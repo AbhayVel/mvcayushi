@@ -53,3 +53,5 @@ WebCore/WebCoreRepositoryLayer/obj/Debug/netcoreapp3.1/WebCoreRepositoryLayer.cs
 *.cache
 *.cache
 *.pdb
+*.dll
+*.dll

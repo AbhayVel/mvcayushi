@@ -1897,6 +1897,16 @@
           "bin/placeholder/UtilityCore.dll": {}
         }
       },
+      "WebCoreConstants/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/WebCoreConstants.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebCoreConstants.dll": {}
+        }
+      },
       "WebCoreDbContext/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1954,6 +1964,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.16",
           "ModelsCoreProject": "1.0.0",
           "NLog.Web.AspNetCore": "4.13.0-readme-preview",
+          "WebCoreConstants": "1.0.0",
           "WebCoreEntities": "1.0.0",
           "WebCoreRepositoryLayer": "1.0.0"
         },
@@ -6702,6 +6713,11 @@
       "type": "project",
       "path": "../UtilityCore/UtilityCore.csproj",
       "msbuildProject": "../UtilityCore/UtilityCore.csproj"
+    },
+    "WebCoreConstants/1.0.0": {
+      "type": "project",
+      "path": "../WebCoreConstants/WebCoreConstants.csproj",
+      "msbuildProject": "../WebCoreConstants/WebCoreConstants.csproj"
     },
     "WebCoreDbContext/1.0.0": {
       "type": "project",

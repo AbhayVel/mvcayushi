@@ -1600,6 +1600,16 @@
           "bin/placeholder/UtilityCore.dll": {}
         }
       },
+      "WebCoreConstants/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/WebCoreConstants.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebCoreConstants.dll": {}
+        }
+      },
       "WebCoreDbContext/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -6003,6 +6013,11 @@
       "path": "../UtilityCore/UtilityCore.csproj",
       "msbuildProject": "../UtilityCore/UtilityCore.csproj"
     },
+    "WebCoreConstants/1.0.0": {
+      "type": "project",
+      "path": "../WebCoreConstants/WebCoreConstants.csproj",
+      "msbuildProject": "../WebCoreConstants/WebCoreConstants.csproj"
+    },
     "WebCoreDbContext/1.0.0": {
       "type": "project",
       "path": "../WebCoreDbContext/WebCoreDbContext.csproj",
@@ -6027,6 +6042,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.16",
       "ModelsCoreProject >= 1.0.0",
       "NLog.Web.AspNetCore >= 4.13.0-readme-preview",
+      "WebCoreConstants >= 1.0.0",
       "WebCoreEntities >= 1.0.0",
       "WebCoreRepositoryLayer >= 1.0.0"
     ]
@@ -6067,6 +6083,9 @@
           "projectReferences": {
             "D:\\Ayushi\\demo\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj": {
               "projectPath": "D:\\Ayushi\\demo\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj"
+            },
+            "D:\\Ayushi\\demo\\WebCore\\WebCoreConstants\\WebCoreConstants.csproj": {
+              "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreConstants\\WebCoreConstants.csproj"
             },
             "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {
               "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj"

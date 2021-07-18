@@ -2740,6 +2740,16 @@
           "bin/placeholder/UtilityCore.dll": {}
         }
       },
+      "WebCoreConstants/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/WebCoreConstants.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebCoreConstants.dll": {}
+        }
+      },
       "WebCoreDbContext/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2797,6 +2807,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.16",
           "ModelsCoreProject": "1.0.0",
           "NLog.Web.AspNetCore": "4.13.0-readme-preview",
+          "WebCoreConstants": "1.0.0",
           "WebCoreEntities": "1.0.0",
           "WebCoreRepositoryLayer": "1.0.0"
         },
@@ -8936,6 +8947,11 @@
       "path": "../UtilityCore/UtilityCore.csproj",
       "msbuildProject": "../UtilityCore/UtilityCore.csproj"
     },
+    "WebCoreConstants/1.0.0": {
+      "type": "project",
+      "path": "../WebCoreConstants/WebCoreConstants.csproj",
+      "msbuildProject": "../WebCoreConstants/WebCoreConstants.csproj"
+    },
     "WebCoreDbContext/1.0.0": {
       "type": "project",
       "path": "../WebCoreDbContext/WebCoreDbContext.csproj",
@@ -8969,6 +8985,7 @@
       "ModelsCoreProject >= 1.0.0",
       "NLog.Web.AspNetCore >= 4.13.0-readme-preview",
       "UtilityCore >= 1.0.0",
+      "WebCoreConstants >= 1.0.0",
       "WebCoreEntities >= 1.0.0",
       "WebCoreServiceLayer >= 1.0.0"
     ]
@@ -9012,6 +9029,9 @@
             },
             "D:\\Ayushi\\demo\\WebCore\\UtilityCore\\UtilityCore.csproj": {
               "projectPath": "D:\\Ayushi\\demo\\WebCore\\UtilityCore\\UtilityCore.csproj"
+            },
+            "D:\\Ayushi\\demo\\WebCore\\WebCoreConstants\\WebCoreConstants.csproj": {
+              "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreConstants\\WebCoreConstants.csproj"
             },
             "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {
               "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj"

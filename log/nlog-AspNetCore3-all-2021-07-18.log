@@ -1,0 +1,143 @@
+2021-07-18 14:44:01.5162|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 473.0083 
+2021-07-18 15:00:04.8589|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 218.1446 
+2021-07-18 15:01:56.8753|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 1504.5178 
+2021-07-18 15:03:11.9012|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 15:03:11.9302|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 15:03:11.9302|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 15:03:28.1138|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Post - Info 1817.6057 
+2021-07-18 15:16:47.0997|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 15:16:47.1382|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 15:16:47.1463|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 15:18:42.9336|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Login - Action: Login - Error: Unable to resolve service for type 'WebCoreServiceLayer.LoginUserIdentityService' while attempting to activate 'WebApiCore.Controllers.LoginController'. - stackTrac :    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-18 15:19:15.8929|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 15:19:15.9341|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 15:19:15.9510|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 15:19:29.2853|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Login - Action: Login - Error: Unable to resolve service for type 'WebCoreServiceLayer.LoginUserIdentityService' while attempting to activate 'WebApiCore.Controllers.LoginController'. - stackTrac :    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-18 15:20:17.7487|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 15:20:17.7785|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 15:20:17.7785|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 15:21:22.3848|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Login - Action: Login - Info 60963.2659 
+2021-07-18 15:21:54.5970|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Login - Action: Login - Info 20294.3663 
+2021-07-18 15:21:59.5626|0|ERROR|WebApiCore.Filters.QdnExceptionFilterAttribute| Controller Login - Action: Login - Error: Exception has been thrown by the target of an invocation. - stackTrac :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Newtonsoft.Json.Serialization.JsonContract.<>c__DisplayClass57_0.<CreateSerializationCallback>b__0(Object o, StreamingContext context)
+   at Newtonsoft.Json.Serialization.JsonContract.InvokeOnSerializing(Object o, StreamingContext context)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.OnSerializing(JsonWriter writer, JsonContract contract, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   at WebApiCore.Controllers.LoginController.Login(LoginUserIdentity loginUserIdentity) in D:\Ayushi\demo\WebCore\WebApiCore\Controllers\LoginController.cs:line 41
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+2021-07-18 15:22:32.5675|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Login - Action: Login - Info 18048.655 
+2021-07-18 15:42:37.1400|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 15:42:37.1805|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 15:42:37.1805|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 15:43:04.9891|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Login - Action: Login - Info 12145.5534 
+2021-07-18 15:43:53.0837|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 15:43:53.1319|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 15:43:53.1319|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 15:46:07.9332|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 15:46:07.9654|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 15:46:07.9722|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 15:46:38.6990|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 3855.3885 
+2021-07-18 15:49:23.7863|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 15:49:23.8217|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 15:49:23.8217|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 15:49:36.4530|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 4931.8059 
+2021-07-18 15:49:47.8879|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Login - Action: Login - Info 7091.3907 
+2021-07-18 15:54:24.3284|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Login - Action: Login - Info 7607.5604 
+2021-07-18 16:00:11.0995|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 16:00:11.1406|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 16:00:11.1505|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 16:00:29.4980|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:00:38.9027|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:01:12.8583|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 16:01:12.9009|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 16:01:12.9113|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 16:01:23.5752|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:02:11.2014|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:02:12.2495|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:02:12.7837|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:02:13.2843|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:02:52.4782|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:02:53.4009|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:03:07.0323|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:03:08.1454|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-18 16:04:09.9371|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 16:04:09.9659|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 16:04:09.9725|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 16:05:20.8101|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Login - Action: Login - Info 3543.9744 
+2021-07-18 16:05:49.2630|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 937.836 

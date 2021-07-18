@@ -7,12 +7,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using WebCoreConstants;
 using WebCoreEntities;
+using WebCoreServiceLayer;
 
 namespace WebCore.Controllers
 {
     public class LoginController : Controller
     {
+        public LoginUserIdentityService LoginUserIdentityService { get; set; }
+        public   LoginController(LoginUserIdentityService loginUserIdentityService)
+        {
+            LoginUserIdentityService = loginUserIdentityService;
+        }
         public IActionResult Index()
         {
             return View("Index");
@@ -31,59 +38,13 @@ namespace WebCore.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string userName,string password)
         {
-            if ("ayushi".Equals(userName))
-            {
 
-                LoginUserIdentity loginUser = new LoginUserIdentity();
-                loginUser.Name = userName;
-                loginUser.IsAuthenticated = true;
-                loginUser.AuthenticationType = CookieAuthenticationDefaults.AuthenticationScheme;
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(loginUser);
-                claimsIdentity.AddClaim(new Claim(ClaimTypes.Role, "Admin"));
-                claimsIdentity.AddClaim(new Claim("Student", "READ"));
-                claimsIdentity.AddClaim(new Claim("Admin", "Yes"));
-                List<ClaimsIdentity> claimsIdentities = new List<ClaimsIdentity>();
-                claimsIdentities.Add(claimsIdentity);
-                ClaimsPrincipal claimPrinsiple = new ClaimsPrincipal(claimsIdentities);                 
-              await  HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimPrinsiple);
-
-                return Redirect("/Student");
+          var claimPrinsiple =  LoginUserIdentityService.GetClaimsPrincipalByName(userName, password);
+            if (claimPrinsiple!=null)
+            {                   
+              await  HttpContext.SignInAsync(Constants.AuthCookieScheama, claimPrinsiple);
+              return Redirect("/Student");
             }
-            else if("abhay".Equals(userName))
-            {
-
-                LoginUserIdentity loginUser = new LoginUserIdentity();
-                loginUser.Name = userName;
-                loginUser.IsAuthenticated = true;
-                loginUser.AuthenticationType = CookieAuthenticationDefaults.AuthenticationScheme;
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(loginUser);
-                claimsIdentity.AddClaim(new Claim(ClaimTypes.Role, "student"));
-                claimsIdentity.AddClaim(new Claim("Student", "R"));
-                List<ClaimsIdentity> claimsIdentities = new List<ClaimsIdentity>();
-                claimsIdentities.Add(claimsIdentity);
-                ClaimsPrincipal claimPrinsiple = new ClaimsPrincipal(claimsIdentities);
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimPrinsiple);
-
-                return Redirect("/Student");
-            }
-            if ("rupal".Equals(userName))
-            {
-                LoginUserIdentity loginUser = new LoginUserIdentity();
-                loginUser.Name = userName;
-                loginUser.IsAuthenticated = true;
-                loginUser.AuthenticationType = CookieAuthenticationDefaults.AuthenticationScheme;
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(loginUser);
-                claimsIdentity.AddClaim(new Claim(ClaimTypes.Role, "student"));
-                claimsIdentity.AddClaim(new Claim("Student", "REA"));
-                List<ClaimsIdentity> claimsIdentities = new List<ClaimsIdentity>();
-                claimsIdentities.Add(claimsIdentity);
-                ClaimsPrincipal claimPrinsiple = new ClaimsPrincipal(claimsIdentities);
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimPrinsiple);
-
-                return Redirect("/Student");
-            }
-
-
             return View("Index");
         }
     }

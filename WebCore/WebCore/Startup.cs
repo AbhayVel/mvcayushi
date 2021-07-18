@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebCoreConstants;
 using WebCoreRepositoryLayer;
 using WebCoreServiceLayer;
 
@@ -28,13 +29,15 @@ namespace WebCore
         {
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
-            
+
+            services.AddScoped<LoginUserIdentityRepository, LoginUserIdentityRepository>();
+            services.AddScoped<LoginUserIdentityService, LoginUserIdentityService>();
             services.AddScoped<SubjectRepository, SubjectRepository>();
             services.AddScoped<SubjectService, SubjectService>();
             services.AddScoped<IStudentRepository,StudentRepository> ();
             services.AddScoped<IStudentService, StudentService>(); //ioc +depency injection 
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, x =>
+            services.AddAuthentication(Constants.AuthCookieScheama)
+                .AddCookie(Constants.AuthCookieScheama, x =>
                 {
                     x.LoginPath = "/Login/Index";
                     x.LogoutPath = "/Login/Index";

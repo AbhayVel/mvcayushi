@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCore", "WebApiCore\We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelsCoreProject", "ModelsCoreProject\ModelsCoreProject.csproj", "{2AADA21E-2E6E-41F9-BE25-47D8387C64EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCoreDbContext", "WebCoreDbContext\WebCoreDbContext.csproj", "{DF05DA63-DD42-403D-A90C-888B316D442D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCoreDbContext", "WebCoreDbContext\WebCoreDbContext.csproj", "{DF05DA63-DD42-403D-A90C-888B316D442D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCoreConstants", "WebCoreConstants\WebCoreConstants.csproj", "{DF375FB2-069C-4CF6-8D8C-D9E42140A026}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{DF05DA63-DD42-403D-A90C-888B316D442D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF05DA63-DD42-403D-A90C-888B316D442D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF05DA63-DD42-403D-A90C-888B316D442D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF375FB2-069C-4CF6-8D8C-D9E42140A026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF375FB2-069C-4CF6-8D8C-D9E42140A026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF375FB2-069C-4CF6-8D8C-D9E42140A026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF375FB2-069C-4CF6-8D8C-D9E42140A026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
