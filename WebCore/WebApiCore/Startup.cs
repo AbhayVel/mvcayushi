@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebCoreConstants;
 using WebCoreRepositoryLayer;
 using WebCoreServiceLayer;
 
@@ -42,20 +43,22 @@ namespace WebApiCore
 
             services.AddAuthentication(x =>
             {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                //   x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; if Default 
+                //  x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; if Default 
 
-            }).AddJwtBearer(y =>
-            {
+                  x.DefaultAuthenticateScheme = Constants.AuthCookieScheama; // if Custom 
+               x.DefaultChallengeScheme = Constants.AuthCookieScheama; // if Custom 
+
+            })
+            //.AddJwtBearer(y => if Default 
+             .AddJwtBearer(Constants.AuthCookieScheama,y => // if Custom  
+             {
                 y.TokenValidationParameters = new TokenValidationParameters
                 {
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("123456789101234578")),
                     ValidateIssuer=false,
                     ValidateIssuerSigningKey=true,
                     ValidateAudience=false,
-                    
-                    
-
             };
 
                 y.Events = new JwtBearerEvents

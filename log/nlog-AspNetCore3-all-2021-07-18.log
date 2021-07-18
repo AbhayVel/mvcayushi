@@ -141,3 +141,9 @@
 2021-07-18 16:04:09.9725|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
 2021-07-18 16:05:20.8101|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Login - Action: Login - Info 3543.9744 
 2021-07-18 16:05:49.2630|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 937.836 
+2021-07-18 16:22:43.4707|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 5573.098 
+2021-07-18 16:22:58.1391|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-18 16:22:58.1665|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-18 16:22:58.1665|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Ayushi\demo\WebCore\WebApiCore 
+2021-07-18 16:23:11.9113|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 2342.6572 
+2021-07-18 16:23:19.6199|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 830.3519 
