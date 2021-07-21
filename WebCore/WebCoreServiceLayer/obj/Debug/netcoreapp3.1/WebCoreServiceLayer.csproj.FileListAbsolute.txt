@@ -21,3 +21,5 @@ D:\Ayushi\demo\WebCore\WebCoreServiceLayer\bin\Debug\netcoreapp3.1\WebCoreDbCont
 D:\Ayushi\demo\WebCore\WebCoreServiceLayer\bin\Debug\netcoreapp3.1\WebCoreDbContext.pdb
 D:\Ayushi\demo\WebCore\WebCoreServiceLayer\obj\Debug\netcoreapp3.1\WebCoreServiceLayer.genruntimeconfig.cache
 D:\Ayushi\demo\WebCore\WebCoreServiceLayer\obj\Debug\netcoreapp3.1\WebCoreServiceLayer.csproj.AssemblyReference.cache
+D:\Ayushi\demo\WebCore\WebCoreServiceLayer\bin\Debug\netcoreapp3.1\WebCoreConstants.dll
+D:\Ayushi\demo\WebCore\WebCoreServiceLayer\bin\Debug\netcoreapp3.1\WebCoreConstants.pdb

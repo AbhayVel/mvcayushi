@@ -96,3 +96,5 @@ D:\Ayushi\demo\WebCore\ConsoleAppCoreDI\bin\Debug\netcoreapp3.1\NLog.dll
 D:\Ayushi\demo\WebCore\ConsoleAppCoreDI\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 D:\Ayushi\demo\WebCore\ConsoleAppCoreDI\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 D:\Ayushi\demo\WebCore\ConsoleAppCoreDI\obj\Debug\netcoreapp3.1\ConsoleAppCoreDI.csproj.AssemblyReference.cache
+D:\Ayushi\demo\WebCore\ConsoleAppCoreDI\bin\Debug\netcoreapp3.1\WebCoreConstants.dll
+D:\Ayushi\demo\WebCore\ConsoleAppCoreDI\bin\Debug\netcoreapp3.1\WebCoreConstants.pdb

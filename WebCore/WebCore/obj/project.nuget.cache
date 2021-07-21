@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YSDGlPbwwKqoFIhUltWfREV5aN2Pv5kWtKPSdSPpbB5nac0mfzEd/VCZrQnHts/g6FlJEdJ0y+vnr1Jy9TcvdQ==",
+  "dgSpecHash": "VGxfT6Z401QVe1Ic96pc5YGhtvERwfXvdFDe4FKuVCkOO6Kjz8ZRb9JVrZrbQkyqSUGSL5Op2FwyBnbwA3wtOQ==",
   "success": true,
   "projectFilePath": "D:\\Ayushi\\demo\\WebCore\\WebCore\\WebCore.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.17\\microsoft.aspnetcore.jsonpatch.3.1.17.nupkg.sha512",
+    "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.17\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.17.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.7\\microsoft.aspnetcore.mvc.razor.extensions.3.1.7.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.7\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.7.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -63,7 +65,8 @@
     "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\AjayV\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\AjayV\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\AjayV\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\nlog\\4.7.9\\nlog.4.7.9.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\nlog.extensions.logging\\1.7.2\\nlog.extensions.logging.1.7.2.nupkg.sha512",
     "C:\\Users\\AjayV\\.nuget\\packages\\nlog.web.aspnetcore\\4.13.0-readme-preview\\nlog.web.aspnetcore.4.13.0-readme-preview.nupkg.sha512",

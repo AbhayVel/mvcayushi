@@ -25,7 +25,7 @@ namespace WebCore.Filters
           Claim c=  claimsPrincipal.FindFirst(x => x.Type.ToLower().Equals(lst[0]));
             try
             {
-                if (c.Value.ToLower().Contains(lst[1]))
+                if (c!=null && c.Value.ToLower().Contains(lst[1]))
                 {
                     return true;
                 }
@@ -51,6 +51,13 @@ namespace WebCore.Filters
         public void OnAuthorization(AuthorizationFilterContext context)
         {
             ClaimsPrincipal claimsPrincipal = context.HttpContext.User;
+
+            if (claimsPrincipal== null || (claimsPrincipal != null && string.IsNullOrWhiteSpace(claimsPrincipal.Identity.Name)))
+            {
+                context.Result = new RedirectResult("/Login");
+                return;
+            }
+                
            if(claimsPrincipal.IsInRoleCheck(ClaimList))
             {
 

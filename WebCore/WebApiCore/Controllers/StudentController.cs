@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ModelsCoreProject;
 using System;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using UtilityCore;
 using WebApiCore.Filters;
+using WebCore.Filters;
 using WebCoreEntities;
 using WebCoreServiceLayer;
 
@@ -14,6 +16,7 @@ namespace WebApiCore.Controllers
 {
 
     
+    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class StudentController : BaseController
@@ -35,6 +38,9 @@ namespace WebApiCore.Controllers
         }
 
         //[Route("student/index")]
+
+
+        [QDNAuthorized(ClaimList = "Student,R")]
         [HttpGet]
 
         [AcceptVerbs(new string[] { "Get", "Post" })]
@@ -47,6 +53,9 @@ namespace WebApiCore.Controllers
         }
 
 
+
+
+        [QDNAuthorized(ClaimList = "Student,R")]
         int i = 0;
         [HttpPost]
         public async Task<IActionResult> Post(StudentModel studentModel)

@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ModelsCoreProject\ModelsCoreProject.csproj" />
+    <ProjectReference Include="..\WebCoreConstants\WebCoreConstants.csproj" />
     <ProjectReference Include="..\WebCoreEntities\WebCoreEntities.csproj" />
     <ProjectReference Include="..\WebCoreRepositoryLayer\WebCoreRepositoryLayer.csproj" />
   </ItemGroup>

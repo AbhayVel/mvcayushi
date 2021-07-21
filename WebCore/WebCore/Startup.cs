@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,13 +9,19 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using UtilityCore;
+using WebCoreConstants;
+using WebCoreEntities;
 using WebCoreRepositoryLayer;
 using WebCoreServiceLayer;
 
 namespace WebCore
 {
-    public class Startup
+
+   
+        public class Startup
     {
         public Startup(IConfiguration configuration)
         {
@@ -28,21 +35,29 @@ namespace WebCore
         {
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
-            
+
+            services.AddScoped<LoginUserIdentityRepository, LoginUserIdentityRepository>();
+            services.AddScoped<LoginUserIdentityService, LoginUserIdentityService>();
             services.AddScoped<SubjectRepository, SubjectRepository>();
             services.AddScoped<SubjectService, SubjectService>();
             services.AddScoped<IStudentRepository,StudentRepository> ();
             services.AddScoped<IStudentService, StudentService>(); //ioc +depency injection 
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, x =>
-                {
-                    x.LoginPath = "/Login/Index";
-                    x.LogoutPath = "/Login/Index";
-                    
-                    x.AccessDeniedPath = "/Unauth/index";
-                    x.ExpireTimeSpan = TimeSpan.FromMinutes(20);
 
-                });
+            ///If cookie based Auth
+            //services.AddAuthentication(Constants.AuthCookieScheama)
+            //    .AddCookie(Constants.AuthCookieScheama, x =>
+            //    {
+            //        x.LoginPath = "/Login/Index";
+            //        x.LogoutPath = "/Login/Index";
+
+            //        x.AccessDeniedPath = "/Unauth/index";
+            //        x.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+
+            //    });
+
+            ///If Session Based Auth 
+            services.AddAuthentication(Constants.AuthCookieScheama);
+
             services.AddSession(x => {
                 x.IdleTimeout = TimeSpan.FromMinutes(20);
             });
@@ -50,7 +65,7 @@ namespace WebCore
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, LoginUserIdentityService loginUserIdentityService)
         {
             if (env.IsDevelopment())
             {
@@ -66,9 +81,29 @@ namespace WebCore
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            
          
             app.UseRouting();
             app.UseAuthentication();
+
+            //If session Base Authentication 
+            if (1 == 1)
+            {
+                app.Use(async (context, next) =>
+                {
+                    if (string.IsNullOrWhiteSpace(context?.User?.Identity?.Name))
+                    {
+                        var arr = context.Session.Get("userObject");
+                        var user = ConvertData.ByteArrayToObject<LoginUserIdentity>(arr);
+                        if (user != null)
+                        {
+                            context.User = loginUserIdentityService.GetClaimsPrincipal(user);
+                        }
+                    }
+                    await next();
+                });
+            }
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

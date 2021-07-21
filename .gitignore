@@ -11,6 +11,8 @@
 
 # dependencies
 /node_modules
+/bin 
+/debug
 
 # profiling files
 chrome-profiler-events*.json
@@ -53,3 +55,11 @@ WebCore/WebCoreRepositoryLayer/obj/Debug/netcoreapp3.1/WebCoreRepositoryLayer.cs
 *.cache
 *.cache
 *.pdb
+*.dll
+*.dll
+WebCore/WebApiCore/bin/Debug/netcoreapp3.1/WebApiCore.dll
+*.txt
+WebCore/.vs/WebCore/v16/.suo
+*.dll
+*.cache
+*.cache
