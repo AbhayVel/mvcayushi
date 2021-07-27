@@ -10,3 +10,15 @@ D:\Ayushi\demo\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.runtimeco
 D:\Ayushi\demo\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.runtimeconfig.dev.json
 D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.genruntimeconfig.cache
 D:\Ayushi\demo\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.csproj.AssemblyReference.cache
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.deps.json
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.runtimeconfig.json
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.runtimeconfig.dev.json
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.dll
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\bin\Debug\netcoreapp3.1\UtilityCore.pdb
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.csproj.AssemblyReference.cache
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.AssemblyInfoInputs.cache
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.AssemblyInfo.cs
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.csproj.CoreCompileInputs.cache
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.dll
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.pdb
+C:\Abhay\aayushi\mvcayushi\WebCore\UtilityCore\obj\Debug\netcoreapp3.1\UtilityCore.genruntimeconfig.cache

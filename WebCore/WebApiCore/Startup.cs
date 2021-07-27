@@ -14,6 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebCoreConstants;
+using WebCoreDbContext;
 using WebCoreRepositoryLayer;
 using WebCoreServiceLayer;
 
@@ -32,6 +33,10 @@ namespace WebApiCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers().AddXmlSerializerFormatters().AddXmlDataContractSerializerFormatters();
+            services.AddSingleton<EnviuornmentValues, EnviuornmentValues>();
+            services.AddScoped<StudentMSContext, StudentMSContext>();
+
+
             services.AddScoped<LoginUserIdentityRepository, LoginUserIdentityRepository>();
             services.AddScoped<LoginUserIdentityService, LoginUserIdentityService>();
 

@@ -2,14 +2,17 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using WebCoreConstants;
 using WebCoreEntities;
 
 namespace WebCoreDbContext
 {
     public partial class StudentMSContext : DbContext
     {
-        public StudentMSContext()
+        public EnviuornmentValues EnviuornmentValues { get; set; }
+        public StudentMSContext(EnviuornmentValues enviuornmentValues)
         {
+            EnviuornmentValues= enviuornmentValues;
         }
 
         public StudentMSContext(DbContextOptions<StudentMSContext> options)
@@ -27,9 +30,12 @@ namespace WebCoreDbContext
         {
             if (!optionsBuilder.IsConfigured)
             {
-              //  optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["BloggingDatabase"].ConnectionString);
+                
+               optionsBuilder.UseSqlServer(EnviuornmentValues.ConnectionString);
+                //azureabhayvelVn\SQLEXPRESS
+              //  optionsBuilder.UseSqlServer("Data Source=DESKTOP-C0FBNF9\\SQLEXPRESS;Initial Catalog=StudentMS;Integrated Security=True");
+              //  optionsBuilder.UseSqlServer("Data Source=azureabhayvelVn\\SQLEXPRESS;Initial Catalog=StudentMS;Integrated Security=True");
 
-                  optionsBuilder.UseSqlServer("Data Source=DESKTOP-C0FBNF9\\SQLEXPRESS;Initial Catalog=StudentMS;Integrated Security=True");
             }
         }
 
