@@ -574,10 +574,10 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.16": {
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.17": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.16"
+          "Microsoft.Extensions.Primitives": "3.1.17"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -668,7 +668,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.16": {
+      "Microsoft.Extensions.Primitives/3.1.17": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
@@ -2785,6 +2785,9 @@
       "WebCoreConstants/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.17"
+        },
         "compile": {
           "bin/placeholder/WebCoreConstants.dll": {}
         },
@@ -2799,6 +2802,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.16",
           "NLog.Web.AspNetCore": "4.13.0-readme-preview",
+          "WebCoreConstants": "1.0.0",
           "WebCoreEntities": "1.0.0"
         },
         "compile": {
@@ -3563,10 +3567,10 @@
         "microsoft.extensions.configuration.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.16": {
-      "sha512": "TcYhNw4N11FeT2wNmN5gAUjthj6MtObBaFOZ3zH+DkMPc2L/Dn/6fbCGzdmOj7R1QoP9TAJrjfkW3wZb/WlGEw==",
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.17": {
+      "sha512": "mPQm9EkeqyvwPBKxeb6Zag66p2LoBNqnoG/5ULH49yIOYyR5JcauM4YhlxqDtNON/j/JK388TM8JJ0MFrDEmKg==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/3.1.16",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3575,7 +3579,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.3.1.16.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.3.1.17.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
@@ -3697,10 +3701,10 @@
         "microsoft.extensions.options.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.16": {
-      "sha512": "mqE90xTSlTdQmk3e7+4L00PbBYB+Ox+S5IJ1P+cavlxoQKBrDf2oLdltWIYHa8GjN8xrAoxwfuFJjFnOWSWdDw==",
+    "Microsoft.Extensions.Primitives/3.1.17": {
+      "sha512": "Dps198+KGasKjBZ66s9cOMJjZJZ2GJ3hHrmHcKiCXMB9r4ZDsD7wDXbswiGVf+da5WglA28ZFpxX1kq5S9TCGQ==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.16",
+      "path": "microsoft.extensions.primitives/3.1.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3709,7 +3713,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.16.nupkg.sha512",
+        "microsoft.extensions.primitives.3.1.17.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
     },
@@ -9086,25 +9090,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AjayV\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\abhayvel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ayushi\\demo\\WebCore\\WebCore\\WebCore.csproj",
+      "projectUniqueName": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCore\\WebCore.csproj",
       "projectName": "WebCore",
-      "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCore\\WebCore.csproj",
-      "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-      "outputPath": "D:\\Ayushi\\demo\\WebCore\\WebCore\\obj\\",
+      "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCore\\WebCore.csproj",
+      "packagesPath": "C:\\Users\\abhayvel\\.nuget\\packages\\",
+      "outputPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abhayvel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9112,6 +9115,7 @@
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Abhay\\aspnetcore\\artifacts\\packages\\Debug\\Shipping": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -9119,20 +9123,20 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Ayushi\\demo\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj": {
-              "projectPath": "D:\\Ayushi\\demo\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj"
+            "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj": {
+              "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj"
             },
-            "D:\\Ayushi\\demo\\WebCore\\UtilityCore\\UtilityCore.csproj": {
-              "projectPath": "D:\\Ayushi\\demo\\WebCore\\UtilityCore\\UtilityCore.csproj"
+            "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\UtilityCore\\UtilityCore.csproj": {
+              "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\UtilityCore\\UtilityCore.csproj"
             },
-            "D:\\Ayushi\\demo\\WebCore\\WebCoreConstants\\WebCoreConstants.csproj": {
-              "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreConstants\\WebCoreConstants.csproj"
+            "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreConstants\\WebCoreConstants.csproj": {
+              "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreConstants\\WebCoreConstants.csproj"
             },
-            "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {
-              "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj"
+            "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {
+              "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj"
             },
-            "D:\\Ayushi\\demo\\WebCore\\WebCoreServiceLayer\\WebCoreServiceLayer.csproj": {
-              "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreServiceLayer\\WebCoreServiceLayer.csproj"
+            "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreServiceLayer\\WebCoreServiceLayer.csproj": {
+              "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreServiceLayer\\WebCoreServiceLayer.csproj"
             }
           }
         }

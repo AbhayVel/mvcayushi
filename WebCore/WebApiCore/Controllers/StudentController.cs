@@ -5,6 +5,7 @@ using ModelsCoreProject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mime;
 using System.Threading.Tasks;
 using UtilityCore;
 using WebApiCore.Filters;
@@ -15,10 +16,14 @@ using WebCoreServiceLayer;
 namespace WebApiCore.Controllers
 {
 
-    
+    [ApiVersion("1")]
+    [ApiVersion("2")]
     [Authorize]
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
+   // [Produces(MediaTypeNames.Application.Json)]
+    
     public class StudentController : BaseController
     {
         public IStudentService StudentService { get; set; }
@@ -30,47 +35,42 @@ namespace WebApiCore.Controllers
 
 
 
-        [HttpGet]
-        public async Task<IActionResult> Index2(string columnName, string orderBy)
-        {
-            List<Student> lStudent = StudentService.GetAllStudent(columnName, orderBy);
-            return Ok(lStudent);
-        }
+        
 
         //[Route("student/index")]
 
 
-        [QDNAuthorized(ClaimList = "Student,R")]
-        [HttpGet]
-
-        [AcceptVerbs(new string[] { "Get", "Post" })]
-        public async Task<IActionResult> Index()
-        {
-            StudentModel studentModel = new StudentModel();
-            List<Student> lStudent = StudentService.GetAllStudent(studentModel);
-            studentModel.Students = lStudent;
-            return Ok(studentModel);
-        }
+         
 
 
 
 
         [QDNAuthorized(ClaimList = "Student,R")]
-        int i = 0;
         [HttpPost]
+        [MapToApiVersion("1")]
+        [Route("post")]
+        [ProducesResponseType(typeof(StudentModel), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Post(StudentModel studentModel)
         {
-            
-            try
-            {
                 List<Student> lStudent = StudentService.GetAllStudent(studentModel);
                 studentModel.Students = lStudent;
                 return Ok(studentModel);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("User required to update Data");
-            }               
+                         
+        }
+
+        [QDNAuthorized(ClaimList = "Student,R")]
+        [MapToApiVersion("2")]
+        [Route("post")]
+        [HttpPost]
+        [ProducesResponseType(typeof(StudentModel), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Post2(StudentModel studentModel)
+        {
+            List<Student> lStudent = StudentService.GetAllStudent(studentModel);
+            studentModel.Students = lStudent;
+            return Ok(studentModel);
+
         }
 
     }

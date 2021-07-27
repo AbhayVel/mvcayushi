@@ -11,8 +11,24 @@ namespace WebCoreServiceLayer
     {
         public IStudentRepository StudentRepository { get; set; }
         public SubjectRepository SubjectRepository { get; set; }
-        public StudentService(IStudentRepository studentRepository, SubjectRepository subjectRepository)
+        public TestSingoltoneLifeCycle TestSingoltoneLifeCycle;
+        public TestScopedLifeCycle TestScopedLifeCycle;
+        public TestTransientLfieCycle TransientLfieCycle;
+        public StudentService(IStudentRepository studentRepository, SubjectRepository subjectRepository, LoginUserIdentityRepository loginUserIdentityRepository,
+           TestSingoltoneLifeCycle testSingoltoneLifeCycle,
+           TestScopedLifeCycle testScopedLifeCycle,
+           TestTransientLfieCycle transientLfieCycle
+
+
+
+             )
         {
+            TestSingoltoneLifeCycle = testSingoltoneLifeCycle;
+            TestScopedLifeCycle = testScopedLifeCycle;
+            TransientLfieCycle = transientLfieCycle;
+            testSingoltoneLifeCycle.Add();
+            testScopedLifeCycle.Add();
+            transientLfieCycle.Add();
             StudentRepository = studentRepository;
             SubjectRepository = subjectRepository;
         }

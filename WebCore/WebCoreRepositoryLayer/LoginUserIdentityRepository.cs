@@ -16,9 +16,9 @@ namespace WebCoreRepositoryLayer
         string _LoginUserIdentityAllCountQuery = "Select Count(1) as Count From dbo.TblLoginUserIdentity as ts ";
         public StudentMSContext StudentMSContext { get; set; }
 
-        public LoginUserIdentityRepository()
+        public LoginUserIdentityRepository(StudentMSContext studentMSContext)
         {
-            StudentMSContext = new StudentMSContext();
+            StudentMSContext= studentMSContext;
         }
 
 

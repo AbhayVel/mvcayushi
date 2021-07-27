@@ -63,3 +63,6 @@ WebCore/.vs/WebCore/v16/.suo
 *.dll
 *.cache
 *.cache
+*.cache
+*.pdb
+*.dll

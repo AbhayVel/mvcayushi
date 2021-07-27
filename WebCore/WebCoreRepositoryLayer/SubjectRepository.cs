@@ -16,9 +16,9 @@ namespace WebCoreRepositoryLayer
         string _subjectAllCountQuery = "Select Count(1) as Count From dbo.TblSubject as ts ";
         public StudentMSContext StudentMSContext { get; set; }
 
-        public SubjectRepository()
+        public SubjectRepository(StudentMSContext studentMSContext)
         {
-            StudentMSContext = new StudentMSContext();
+            StudentMSContext= studentMSContext;
         }
 
 
