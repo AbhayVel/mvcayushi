@@ -5,6 +5,7 @@ using ModelsCoreProject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mime;
 using System.Threading.Tasks;
 using UtilityCore;
 using WebApiCore.Filters;
@@ -19,6 +20,8 @@ namespace WebApiCore.Controllers
     [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
+   // [Produces(MediaTypeNames.Application.Json)]
+    
     public class StudentController : BaseController
     {
         public IStudentService StudentService { get; set; }
@@ -44,6 +47,8 @@ namespace WebApiCore.Controllers
         [HttpGet]
 
         [AcceptVerbs(new string[] { "Get", "Post" })]
+        [ProducesResponseType(typeof(List<Student>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Index()
         {
             StudentModel studentModel = new StudentModel();
@@ -57,7 +62,10 @@ namespace WebApiCore.Controllers
 
         [QDNAuthorized(ClaimList = "Student,R")]
         int i = 0;
-        [HttpPost]
+        [HttpPost]            
+         
+        [ProducesResponseType(typeof(StudentModel), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Post(StudentModel studentModel)
         {
             

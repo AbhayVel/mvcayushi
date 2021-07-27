@@ -164,3 +164,8 @@ C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\scopedcss\
 C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.RazorTargetAssemblyInfo.cache
 C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.csproj.CopyComplete
 C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.genruntimeconfig.cache
+C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Abhay\aayushi\mvcayushi\WebCore\WebApiCore\obj\Debug\netcoreapp3.1\WebApiCore.MvcApplicationPartsAssemblyInfo.cs
