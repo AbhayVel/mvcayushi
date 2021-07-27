@@ -13,6 +13,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using UtilityCore;
 using WebCoreConstants;
+using WebCoreDbContext;
 using WebCoreEntities;
 using WebCoreRepositoryLayer;
 using WebCoreServiceLayer;
@@ -39,8 +40,8 @@ namespace WebCore
             services.AddSingleton<TestSingoltoneLifeCycle, TestSingoltoneLifeCycle>();
             services.AddScoped<TestScopedLifeCycle, TestScopedLifeCycle>();
             services.AddTransient<TestTransientLfieCycle, TestTransientLfieCycle>();
-
-
+            services.AddSingleton<EnviuornmentValues, EnviuornmentValues>();
+            services.AddScoped<StudentMSContext, StudentMSContext>();
             services.AddScoped<LoginUserIdentityRepository, LoginUserIdentityRepository>();
             services.AddScoped<LoginUserIdentityService, LoginUserIdentityService>();
             services.AddScoped<SubjectRepository, SubjectRepository>();

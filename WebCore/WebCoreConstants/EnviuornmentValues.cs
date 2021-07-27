@@ -10,7 +10,7 @@ namespace WebCoreConstants
         public EnviuornmentValues(IConfiguration configuration)
         {
             Configuration = configuration;
-            ConnectionString = Configuration["connection"].ToString();
+            ConnectionString = Configuration["connectionString"].ToString();
         }
 
         public  IConfiguration Configuration { get; }

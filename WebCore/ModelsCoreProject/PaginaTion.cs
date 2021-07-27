@@ -23,6 +23,10 @@ namespace ModelsCoreProject
         public List<int> Pages { get; set; }
 
         public List<T> SetPage<T>(List<T> list){
+            if (RowCount == 0)
+            {
+                RowCount = 3;
+            }
             TotalRowCount = list.Count;
             int pageCount =(int) Math.Ceiling( TotalRowCount* 1.0 / RowCount);
             if(CurrentPage > pageCount)
@@ -42,9 +46,13 @@ namespace ModelsCoreProject
 
         public string SetPageQuery(int totalRowCount) 
         {
+            if (RowCount == 0)
+            {
+                RowCount = 3;
+            }
             TotalRowCount = totalRowCount;
             int pageCount = (int)Math.Ceiling(TotalRowCount * 1.0 / RowCount);
-            if (CurrentPage > pageCount)
+            if (CurrentPage > pageCount || CurrentPage==0)
             {
                 CurrentPage = 1;
             }

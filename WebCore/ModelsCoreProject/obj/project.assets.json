@@ -5668,25 +5668,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AjayV\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\abhayvel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ayushi\\demo\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj",
+      "projectUniqueName": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj",
       "projectName": "ModelsCoreProject",
-      "projectPath": "D:\\Ayushi\\demo\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj",
-      "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-      "outputPath": "D:\\Ayushi\\demo\\WebCore\\ModelsCoreProject\\obj\\",
+      "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\ModelsCoreProject\\ModelsCoreProject.csproj",
+      "packagesPath": "C:\\Users\\abhayvel\\.nuget\\packages\\",
+      "outputPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\ModelsCoreProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abhayvel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5694,6 +5693,7 @@
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Abhay\\aspnetcore\\artifacts\\packages\\Debug\\Shipping": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -5701,11 +5701,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Ayushi\\demo\\WebCore\\UtilityCore\\UtilityCore.csproj": {
-              "projectPath": "D:\\Ayushi\\demo\\WebCore\\UtilityCore\\UtilityCore.csproj"
+            "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\UtilityCore\\UtilityCore.csproj": {
+              "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\UtilityCore\\UtilityCore.csproj"
             },
-            "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {
-              "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj"
+            "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {
+              "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj"
             }
           }
         }

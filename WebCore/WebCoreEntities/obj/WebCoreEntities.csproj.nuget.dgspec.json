@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {}
+    "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {}
   },
   "projects": {
-    "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {
+    "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj",
+        "projectUniqueName": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj",
         "projectName": "WebCoreEntities",
-        "projectPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj",
-        "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-        "outputPath": "D:\\Ayushi\\demo\\WebCore\\WebCoreEntities\\obj\\",
+        "projectPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\WebCoreEntities.csproj",
+        "packagesPath": "C:\\Users\\abhayvel\\.nuget\\packages\\",
+        "outputPath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebCoreEntities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abhayvel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,6 +26,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Abhay\\aspnetcore\\artifacts\\packages\\Debug\\Shipping": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
