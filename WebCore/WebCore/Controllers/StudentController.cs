@@ -22,17 +22,30 @@ namespace WebCore.Controllers
      
    
     [QdnActionFilter]
-    [QdnExceptionFilterAttribute]
+  
     //Name +COnroller 
     public class StudentController : Controller
     {
 
         public IStudentService StudentService { get; set; }
 
-       
+        public TestSingoltoneLifeCycle TestSingoltoneLifeCycle;
+        public TestScopedLifeCycle TestScopedLifeCycle;
+        public TestTransientLfieCycle TransientLfieCycle;
 
-        public StudentController(IStudentService studentService)
+        public StudentController(IStudentService studentService, LoginUserIdentityService lLoginUserIdentityService,
+             TestSingoltoneLifeCycle testSingoltoneLifeCycle,
+           TestScopedLifeCycle testScopedLifeCycle,
+           TestTransientLfieCycle transientLfieCycle
+
+            )
         {
+            TestSingoltoneLifeCycle = testSingoltoneLifeCycle;
+            TestScopedLifeCycle = testScopedLifeCycle;
+            TransientLfieCycle = transientLfieCycle;
+            testSingoltoneLifeCycle.Add();
+            testScopedLifeCycle.Add();
+            transientLfieCycle.Add();
             StudentService = studentService;
         }
 
@@ -41,7 +54,8 @@ namespace WebCore.Controllers
 
         [QDNAuthorized(ClaimList = "Student,R")]
         public IActionResult Index(StudentModel studentModel, Pagination pagination)
-        { 
+        {
+          //  TryUpdateModelAsync(studentModel);
             
             studentModel.Pagination = pagination;
             List<Student> lStudent = StudentService.GetAllStudent(studentModel);
@@ -80,6 +94,8 @@ namespace WebCore.Controllers
         [QDNAuthorized(ClaimList = "Student,A")]
         public IActionResult Add()
         {
+            var k = 1 / i;
+
             Student student = new Student();
             return View("Edit",student);
         }

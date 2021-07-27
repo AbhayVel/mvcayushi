@@ -30,7 +30,7 @@
       },
       "Microsoft.AspNetCore.Http.Features/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.16"
+          "Microsoft.Extensions.Primitives": "3.1.17"
         }
       },
       "Microsoft.AspNetCore.JsonPatch/3.1.17": {
@@ -179,7 +179,7 @@
       },
       "Microsoft.Extensions.Caching.Abstractions/3.1.16": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.16"
+          "Microsoft.Extensions.Primitives": "3.1.17"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {
@@ -204,7 +204,7 @@
       },
       "Microsoft.Extensions.Configuration/3.1.16": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.16"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.17"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
@@ -213,14 +213,14 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.16": {
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.17": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.16"
+          "Microsoft.Extensions.Primitives": "3.1.17"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "3.1.16.0",
-            "fileVersion": "3.100.1621.26206"
+            "assemblyVersion": "3.1.17.0",
+            "fileVersion": "3.100.1721.31514"
           }
         }
       },
@@ -279,7 +279,7 @@
       "Microsoft.Extensions.Options/3.1.16": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.16",
-          "Microsoft.Extensions.Primitives": "3.1.16"
+          "Microsoft.Extensions.Primitives": "3.1.17"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
@@ -288,11 +288,11 @@
           }
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.16": {
+      "Microsoft.Extensions.Primitives/3.1.17": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "3.1.16.0",
-            "fileVersion": "3.100.1621.26206"
+            "assemblyVersion": "3.1.17.0",
+            "fileVersion": "3.100.1721.31514"
           }
         }
       },
@@ -1052,6 +1052,9 @@
         }
       },
       "WebCoreConstants/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.17"
+        },
         "runtime": {
           "WebCoreConstants.dll": {}
         }
@@ -1225,12 +1228,12 @@
       "path": "microsoft.extensions.configuration/3.1.16",
       "hashPath": "microsoft.extensions.configuration.3.1.16.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.16": {
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.17": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TcYhNw4N11FeT2wNmN5gAUjthj6MtObBaFOZ3zH+DkMPc2L/Dn/6fbCGzdmOj7R1QoP9TAJrjfkW3wZb/WlGEw==",
-      "path": "microsoft.extensions.configuration.abstractions/3.1.16",
-      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.16.nupkg.sha512"
+      "sha512": "sha512-mPQm9EkeqyvwPBKxeb6Zag66p2LoBNqnoG/5ULH49yIOYyR5JcauM4YhlxqDtNON/j/JK388TM8JJ0MFrDEmKg==",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.17",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.17.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Binder/3.1.16": {
       "type": "package",
@@ -1274,12 +1277,12 @@
       "path": "microsoft.extensions.options/3.1.16",
       "hashPath": "microsoft.extensions.options.3.1.16.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/3.1.16": {
+    "Microsoft.Extensions.Primitives/3.1.17": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mqE90xTSlTdQmk3e7+4L00PbBYB+Ox+S5IJ1P+cavlxoQKBrDf2oLdltWIYHa8GjN8xrAoxwfuFJjFnOWSWdDw==",
-      "path": "microsoft.extensions.primitives/3.1.16",
-      "hashPath": "microsoft.extensions.primitives.3.1.16.nupkg.sha512"
+      "sha512": "sha512-Dps198+KGasKjBZ66s9cOMJjZJZ2GJ3hHrmHcKiCXMB9r4ZDsD7wDXbswiGVf+da5WglA28ZFpxX1kq5S9TCGQ==",
+      "path": "microsoft.extensions.primitives/3.1.17",
+      "hashPath": "microsoft.extensions.primitives.3.1.17.nupkg.sha512"
     },
     "Microsoft.Identity.Client/3.0.8": {
       "type": "package",

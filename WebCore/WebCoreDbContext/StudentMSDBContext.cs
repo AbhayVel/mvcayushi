@@ -27,8 +27,9 @@ namespace WebCoreDbContext
         {
             if (!optionsBuilder.IsConfigured)
             {
+              //  optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["BloggingDatabase"].ConnectionString);
 
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-C0FBNF9\\SQLEXPRESS;Initial Catalog=StudentMS;Integrated Security=True");
+                  optionsBuilder.UseSqlServer("Data Source=DESKTOP-C0FBNF9\\SQLEXPRESS;Initial Catalog=StudentMS;Integrated Security=True");
             }
         }
 

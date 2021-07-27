@@ -152,3 +152,4 @@
 2021-07-18 17:19:58.1520|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 190.7882 
 2021-07-18 17:54:33.4509|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 194.3772 
 2021-07-18 18:11:50.8969|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 208.5589 
+2021-07-18 18:32:44.8510|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 179.8118 

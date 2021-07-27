@@ -5426,3 +5426,355 @@
 2021-07-18 18:11:50.6811 Info Adding target FileTarget(Name=allfile)
 2021-07-18 18:11:50.6811 Info Closing old configuration.
 2021-07-18 18:11:50.6811 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:36.6757 Info Message Template Auto Format enabled
+2021-07-18 18:32:36.6757 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:36.7491 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:36.7908 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:36.8549 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:36.8549 Info Message Template Auto Format enabled
+2021-07-18 18:32:36.8549 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:36.8549 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:36.8549 Info Closing old configuration.
+2021-07-18 18:32:36.8855 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:36.8855 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:36.8855 Info Message Template Auto Format enabled
+2021-07-18 18:32:36.8855 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:36.8855 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:36.8855 Info Closing old configuration.
+2021-07-18 18:32:36.8855 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:36.8937 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:36.8937 Info Message Template Auto Format enabled
+2021-07-18 18:32:36.8937 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:36.8937 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:36.8937 Info Closing old configuration.
+2021-07-18 18:32:36.8937 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:36.8937 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:36.8937 Info Message Template Auto Format enabled
+2021-07-18 18:32:36.8937 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:36.8937 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:36.8937 Info Closing old configuration.
+2021-07-18 18:32:36.8937 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:36.8937 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:36.8937 Info Message Template Auto Format enabled
+2021-07-18 18:32:36.8937 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:36.8937 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:36.8937 Info Closing old configuration.
+2021-07-18 18:32:36.8937 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:36.9098 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:36.9098 Info Message Template Auto Format enabled
+2021-07-18 18:32:36.9098 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:36.9098 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:36.9098 Info Closing old configuration.
+2021-07-18 18:32:36.9098 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:36.9098 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:36.9098 Info Message Template Auto Format enabled
+2021-07-18 18:32:36.9098 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:36.9098 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:36.9098 Info Closing old configuration.
+2021-07-18 18:32:36.9098 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:44.6432 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:44.6439 Info Message Template Auto Format enabled
+2021-07-18 18:32:44.6439 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:44.6439 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:44.6439 Info Closing old configuration.
+2021-07-18 18:32:44.6439 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:44.6439 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:44.6439 Info Message Template Auto Format enabled
+2021-07-18 18:32:44.6439 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:44.6439 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:44.6439 Info Closing old configuration.
+2021-07-18 18:32:44.6439 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:44.6622 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:44.6622 Info Message Template Auto Format enabled
+2021-07-18 18:32:44.6622 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:44.6622 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:44.6622 Info Closing old configuration.
+2021-07-18 18:32:44.6622 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-18 18:32:44.6622 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-18 18:32:44.6622 Info Message Template Auto Format enabled
+2021-07-18 18:32:44.6622 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-18 18:32:44.6622 Info Adding target FileTarget(Name=allfile)
+2021-07-18 18:32:44.6622 Info Closing old configuration.
+2021-07-18 18:32:44.6622 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:34.6892 Info Message Template Auto Format enabled
+2021-07-24 16:55:34.7003 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:34.7781 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:34.8127 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:34.8697 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:34.8697 Info Message Template Auto Format enabled
+2021-07-24 16:55:34.8697 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:34.8723 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:34.8723 Info Closing old configuration.
+2021-07-24 16:55:34.8942 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:34.8942 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:34.8942 Info Message Template Auto Format enabled
+2021-07-24 16:55:34.8942 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:34.8942 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:34.8942 Info Closing old configuration.
+2021-07-24 16:55:34.8942 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:34.8942 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:34.8942 Info Message Template Auto Format enabled
+2021-07-24 16:55:34.8942 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:34.9022 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:34.9022 Info Closing old configuration.
+2021-07-24 16:55:34.9022 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:34.9022 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:34.9022 Info Message Template Auto Format enabled
+2021-07-24 16:55:34.9022 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:34.9022 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:34.9022 Info Closing old configuration.
+2021-07-24 16:55:34.9022 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:34.9022 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:34.9022 Info Message Template Auto Format enabled
+2021-07-24 16:55:34.9022 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:34.9022 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:34.9022 Info Closing old configuration.
+2021-07-24 16:55:34.9022 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:34.9022 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:34.9022 Info Message Template Auto Format enabled
+2021-07-24 16:55:34.9022 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:34.9185 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:34.9185 Info Closing old configuration.
+2021-07-24 16:55:34.9185 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:34.9185 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:34.9185 Info Message Template Auto Format enabled
+2021-07-24 16:55:34.9185 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:34.9185 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:34.9185 Info Closing old configuration.
+2021-07-24 16:55:34.9185 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:39.6838 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:39.6843 Info Message Template Auto Format enabled
+2021-07-24 16:55:39.6843 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:39.6843 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:39.6843 Info Closing old configuration.
+2021-07-24 16:55:39.6843 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:39.6843 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:39.6843 Info Message Template Auto Format enabled
+2021-07-24 16:55:39.6843 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:39.6843 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:39.6843 Info Closing old configuration.
+2021-07-24 16:55:39.6843 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:39.7069 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:39.7069 Info Message Template Auto Format enabled
+2021-07-24 16:55:39.7069 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:39.7069 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:39.7069 Info Closing old configuration.
+2021-07-24 16:55:39.7069 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 16:55:39.7069 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 16:55:39.7069 Info Message Template Auto Format enabled
+2021-07-24 16:55:39.7069 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 16:55:39.7069 Info Adding target FileTarget(Name=allfile)
+2021-07-24 16:55:39.7069 Info Closing old configuration.
+2021-07-24 16:55:39.7148 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:03:57.7102 Info Message Template Auto Format enabled
+2021-07-24 17:03:57.7226 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:03:57.8274 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:03:57.8841 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:03:57.9825 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:03:57.9825 Info Message Template Auto Format enabled
+2021-07-24 17:03:57.9825 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:03:57.9825 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:03:57.9825 Info Closing old configuration.
+2021-07-24 17:03:58.0720 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:03:58.0749 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:03:58.0749 Info Message Template Auto Format enabled
+2021-07-24 17:03:58.0749 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:03:58.0749 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:03:58.0749 Info Closing old configuration.
+2021-07-24 17:03:58.0749 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:03:58.0749 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:03:58.0749 Info Message Template Auto Format enabled
+2021-07-24 17:03:58.0749 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:03:58.0749 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:03:58.0749 Info Closing old configuration.
+2021-07-24 17:03:58.0749 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:03:58.0917 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:03:58.0917 Info Message Template Auto Format enabled
+2021-07-24 17:03:58.0917 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:03:58.0917 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:03:58.0917 Info Closing old configuration.
+2021-07-24 17:03:58.0917 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:03:58.0917 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:03:58.0917 Info Message Template Auto Format enabled
+2021-07-24 17:03:58.0917 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:03:58.0917 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:03:58.0917 Info Closing old configuration.
+2021-07-24 17:03:58.0917 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:03:58.1058 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:03:58.1058 Info Message Template Auto Format enabled
+2021-07-24 17:03:58.1058 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:03:58.1058 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:03:58.1058 Info Closing old configuration.
+2021-07-24 17:03:58.1058 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:03:58.1058 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:03:58.1058 Info Message Template Auto Format enabled
+2021-07-24 17:03:58.1058 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:03:58.1058 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:03:58.1058 Info Closing old configuration.
+2021-07-24 17:03:58.1058 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:11:07.6554 Info Message Template Auto Format enabled
+2021-07-24 17:11:07.6554 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:11:07.7315 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:11:07.7685 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:11:07.8124 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:11:07.8124 Info Message Template Auto Format enabled
+2021-07-24 17:11:07.8124 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:11:07.8124 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:11:07.8124 Info Closing old configuration.
+2021-07-24 17:11:07.8250 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:11:07.8250 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:11:07.8250 Info Message Template Auto Format enabled
+2021-07-24 17:11:07.8250 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:11:07.8250 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:11:07.8250 Info Closing old configuration.
+2021-07-24 17:11:07.8250 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:11:07.8250 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:11:07.8250 Info Message Template Auto Format enabled
+2021-07-24 17:11:07.8250 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:11:07.8250 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:11:07.8250 Info Closing old configuration.
+2021-07-24 17:11:07.8250 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:12:54.5973 Info Message Template Auto Format enabled
+2021-07-24 17:12:54.5973 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:12:54.6710 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:12:54.7114 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:12:54.7586 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:12:54.7586 Info Message Template Auto Format enabled
+2021-07-24 17:12:54.7586 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:12:54.7586 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:12:54.7586 Info Closing old configuration.
+2021-07-24 17:12:54.7760 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:12:54.7760 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:12:54.7781 Info Message Template Auto Format enabled
+2021-07-24 17:12:54.7781 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:12:54.7781 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:12:54.7781 Info Closing old configuration.
+2021-07-24 17:12:54.7781 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:12:54.7781 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:12:54.7781 Info Message Template Auto Format enabled
+2021-07-24 17:12:54.7781 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:12:54.7781 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:12:54.7781 Info Closing old configuration.
+2021-07-24 17:12:54.7781 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:13:51.3295 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:13:51.3295 Info Message Template Auto Format enabled
+2021-07-24 17:13:51.3295 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:13:51.3295 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:13:51.3295 Info Closing old configuration.
+2021-07-24 17:13:51.3295 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:13:51.3452 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:13:51.3452 Info Message Template Auto Format enabled
+2021-07-24 17:13:51.3452 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:13:51.3452 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:13:51.3452 Info Closing old configuration.
+2021-07-24 17:13:51.3452 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:20:02.7592 Info Message Template Auto Format enabled
+2021-07-24 17:20:02.7675 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:20:02.8223 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:20:02.8563 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:20:02.9013 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:20:02.9013 Info Message Template Auto Format enabled
+2021-07-24 17:20:02.9024 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:20:02.9024 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:20:02.9024 Info Closing old configuration.
+2021-07-24 17:20:02.9243 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:20:02.9243 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:20:02.9243 Info Message Template Auto Format enabled
+2021-07-24 17:20:02.9243 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:20:02.9243 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:20:02.9243 Info Closing old configuration.
+2021-07-24 17:20:02.9243 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:20:02.9365 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:20:02.9365 Info Message Template Auto Format enabled
+2021-07-24 17:20:02.9365 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:20:02.9365 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:20:02.9365 Info Closing old configuration.
+2021-07-24 17:20:02.9365 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:22:13.8976 Info Message Template Auto Format enabled
+2021-07-24 17:22:13.9048 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:22:13.9492 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:22:13.9790 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:22:14.0188 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:22:14.0188 Info Message Template Auto Format enabled
+2021-07-24 17:22:14.0188 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:22:14.0188 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:22:14.0188 Info Closing old configuration.
+2021-07-24 17:22:14.0391 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:22:14.0391 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:22:14.0391 Info Message Template Auto Format enabled
+2021-07-24 17:22:14.0391 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:22:14.0391 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:22:14.0391 Info Closing old configuration.
+2021-07-24 17:22:14.0391 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:22:14.0437 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:22:14.0437 Info Message Template Auto Format enabled
+2021-07-24 17:22:14.0437 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:22:14.0437 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:22:14.0437 Info Closing old configuration.
+2021-07-24 17:22:14.0437 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:23:17.9490 Info Message Template Auto Format enabled
+2021-07-24 17:23:17.9570 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:23:18.0223 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:23:18.0508 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:23:18.0945 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:23:18.0945 Info Message Template Auto Format enabled
+2021-07-24 17:23:18.0945 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:23:18.0945 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:23:18.0945 Info Closing old configuration.
+2021-07-24 17:23:18.1103 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:23:18.1103 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:23:18.1103 Info Message Template Auto Format enabled
+2021-07-24 17:23:18.1103 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:23:18.1103 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:23:18.1103 Info Closing old configuration.
+2021-07-24 17:23:18.1103 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:23:18.1103 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:23:18.1103 Info Message Template Auto Format enabled
+2021-07-24 17:23:18.1103 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:23:18.1103 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:23:18.1103 Info Closing old configuration.
+2021-07-24 17:23:18.1103 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:23:48.6807 Info Message Template Auto Format enabled
+2021-07-24 17:23:48.6883 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:23:48.7394 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:23:48.7694 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:23:48.8127 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:23:48.8127 Info Message Template Auto Format enabled
+2021-07-24 17:23:48.8127 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:23:48.8127 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:23:48.8127 Info Closing old configuration.
+2021-07-24 17:23:48.8266 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:23:48.8266 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:23:48.8266 Info Message Template Auto Format enabled
+2021-07-24 17:23:48.8266 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:23:48.8266 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:23:48.8266 Info Closing old configuration.
+2021-07-24 17:23:48.8266 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:23:48.8266 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:23:48.8266 Info Message Template Auto Format enabled
+2021-07-24 17:23:48.8266 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:23:48.8266 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:23:48.8266 Info Closing old configuration.
+2021-07-24 17:23:48.8266 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:25:29.3235 Info Message Template Auto Format enabled
+2021-07-24 17:25:29.3307 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:25:29.3899 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:25:29.4201 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:25:29.4663 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:25:29.4663 Info Message Template Auto Format enabled
+2021-07-24 17:25:29.4663 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:25:29.4663 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:25:29.4663 Info Closing old configuration.
+2021-07-24 17:25:29.4868 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:25:29.4868 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:25:29.4868 Info Message Template Auto Format enabled
+2021-07-24 17:25:29.4868 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:25:29.4868 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:25:29.4868 Info Closing old configuration.
+2021-07-24 17:25:29.4868 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
+2021-07-24 17:25:29.4868 Info Configuring from an XML element in D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config...
+2021-07-24 17:25:29.4868 Info Message Template Auto Format enabled
+2021-07-24 17:25:29.4868 Info Loading assembly: NLog.Web.AspNetCore
+2021-07-24 17:25:29.4868 Info Adding target FileTarget(Name=allfile)
+2021-07-24 17:25:29.4868 Info Closing old configuration.
+2021-07-24 17:25:29.4868 Info Validating config: TargetNames=allfile, ConfigItems=24, FilePath=D:\Ayushi\demo\WebCore\WebCore\bin\Debug\netcoreapp3.1\nlog.config
