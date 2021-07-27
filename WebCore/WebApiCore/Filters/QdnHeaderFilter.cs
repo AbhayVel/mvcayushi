@@ -10,20 +10,7 @@ namespace WebApiCore.Filters
 {
     public class QdnHeaderFilter : IOperationFilter
     {
-        public void Apply(Operation operation, OperationFilterContext context)
-        {
-            
-            //if (operation.Parameters == null)
-            //    operation.Parameters = new List<IParameter>();
-
-            //operation.Parameters.Add(new NonBodyParameter
-            //{
-            //    Name = "MY-HEADER",
-            //    In = "header",
-            //    Type = "string",
-            //    Required = true // set to false if this is optional
-            //});
-        }
+        
 
         public void Apply(OpenApiOperation operation, OperationFilterContext context)
         {

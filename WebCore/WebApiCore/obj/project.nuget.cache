@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cJ3w55Rcb2wERrF5dHSiLYo8T4hYq2Pb7eUZEATXnIo3z0kLLgvX9DByYAh6GmRWZCnG9lVKO+A/21tN8+jQ5Q==",
+  "dgSpecHash": "3FNgB6pTxpmEy7AozSQ7YSQNzPHqb9sesVvzzWd1/aJAzVgBH6R/YC8Cxxzvxnn43HtJtmhxUD1G6tMp0jO8mA==",
   "success": true,
   "projectFilePath": "C:\\Abhay\\aayushi\\mvcayushi\\WebCore\\WebApiCore\\WebApiCore.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\abhayvel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\abhayvel\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.17\\microsoft.aspnetcore.jsonpatch.3.1.17.nupkg.sha512",
     "C:\\Users\\abhayvel\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.17\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.17.nupkg.sha512",
+    "C:\\Users\\abhayvel\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\abhayvel\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\abhayvel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\abhayvel\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\abhayvel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -16,8 +16,10 @@ using WebCoreServiceLayer;
 namespace WebApiCore.Controllers
 {
 
-    
-    [Route("api/[controller]/[action]")]
+    [ApiVersion("1")]
+    [ApiVersion("2")]
+    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class LoginController : BaseController
     {
