@@ -1,0 +1,6 @@
+2021-07-24 16:55:40.0216|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 303.5387 
+2021-07-24 16:56:43.9952|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 43429.9345 
+2021-07-24 16:57:20.1275|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 32759.3518 
+2021-07-24 17:02:06.1964|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 283146.7721 
+2021-07-24 17:13:53.6798|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Index - Info 2325.6836 
+2021-07-24 17:14:01.3073|0|INFO|WebApiCore.Filters.QdnActionFilter| Controller Student - Action: Add - Info 3230.4187 
