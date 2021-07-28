@@ -8,6 +8,8 @@
 /bazel-out
 *.dll
 *.pdb
+/.suo
+/obj
 
 # dependencies
 /node_modules
