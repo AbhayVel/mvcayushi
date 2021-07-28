@@ -942,3 +942,6 @@ C:\Abhay\aayushi\mvcayushi\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.Razor
 C:\Abhay\aayushi\mvcayushi\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.Views.pdb
 C:\Abhay\aayushi\mvcayushi\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.csproj.CopyComplete
 C:\Abhay\aayushi\mvcayushi\WebCore\WebCore\obj\Debug\netcoreapp3.1\WebCore.genruntimeconfig.cache
+C:\Abhay\aayushi\mvcayushi\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HomeData\Index.cshtml.g.cs
+C:\Abhay\aayushi\mvcayushi\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Abhay\aayushi\mvcayushi\WebCore\WebCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs

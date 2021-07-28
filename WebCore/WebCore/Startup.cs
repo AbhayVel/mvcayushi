@@ -142,7 +142,12 @@ namespace WebCore
                 //   name: "xyz",
                 //   pattern: "product/{controller=Home}/{action=Index}/{id?}");
 
-                endpoints.MapControllerRoute(
+                endpoints.MapAreaControllerRoute(
+                    name: "Admin",
+                    areaName:"Admin",
+                    pattern: "admin/{controller=HomeData}/{action=Index}/{id?}");
+
+            endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Student}/{action=Index}/{id?}");
             });
