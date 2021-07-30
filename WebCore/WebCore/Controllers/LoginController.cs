@@ -21,8 +21,11 @@ namespace WebCore.Controllers
         {
             LoginUserIdentityService = loginUserIdentityService;
         }
+
+        [ResponseCache(Duration =  30, Location = ResponseCacheLocation.Any)]
         public IActionResult Index()
         {
+            ViewBag.currentDate = DateTime.Now.ToString();
             return View("Index");
         }
 

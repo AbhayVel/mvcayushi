@@ -36,7 +36,14 @@ namespace WebCore
         {
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddMemoryCache(option =>
+            {
 
+            });
+
+            services.AddResponseCaching(option=> {
+                option.UseCaseSensitivePaths = true;
+            });
             services.AddSingleton<TestSingoltoneLifeCycle, TestSingoltoneLifeCycle>();
             services.AddScoped<TestScopedLifeCycle, TestScopedLifeCycle>();
             services.AddTransient<TestTransientLfieCycle, TestTransientLfieCycle>();
@@ -83,6 +90,8 @@ namespace WebCore
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseResponseCaching();
+            
             app.UseSession();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
